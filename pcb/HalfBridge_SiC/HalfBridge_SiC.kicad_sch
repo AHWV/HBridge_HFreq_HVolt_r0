@@ -482,6 +482,456 @@
 				)
 			)
 		)
+		(symbol "My_Connector:413638-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "413638-E"
+				(at 8.89 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "My_Connector:TEConnectivity_413638E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "15 Position Header, Male Blades Connector Solder 0.300\" (7.62mm) Through Hole, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "413638-E"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIN 41612 H15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "413638-E_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "D26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "D30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -11.43 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Z12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Z16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "Z20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Z24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "Z28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "Z32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "Z4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Z8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 44.45 95.25)
@@ -609,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 60.96) (xy 54.61 60.96)
+			(xy 59.69 72.39) (xy 54.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 60.96) (xy 54.61 91.44)
+			(xy 54.61 72.39) (xy 54.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 53.34 88.9)
+			(xy 53.34 69.85) (xy 53.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 102.87 97.79)
+			(xy 92.71 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 53.34 58.42)
+			(xy 59.69 69.85) (xy 53.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 102.87 95.25)
+			(xy 93.98 95.25) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 99.06 95.25)
+			(xy 93.98 85.09) (xy 93.98 95.25)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 63.5) (xy 91.44 63.5)
+			(xy 86.36 74.93) (xy 91.44 74.93)
 		)
 		(stroke
 			(width 0)
@@ -779,23 +1229,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 90.17)
+			(xy 91.44 74.93) (xy 91.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9550c5ae-ede5-45e9-9f1c-7eb591ed5a3d")
-	)
-	(wire
-		(pts
-			(xy 93.98 85.09) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990002f0-6cad-4acf-afd1-e5eb128c8109")
 	)
 	(wire
 		(pts
@@ -839,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 92.71 60.96)
+			(xy 86.36 72.39) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 58.42) (xy 93.98 58.42)
+			(xy 86.36 69.85) (xy 93.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 93.98 97.79)
+			(xy 92.71 87.63) (xy 92.71 97.79)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 92.71 87.63)
+			(xy 92.71 72.39) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -899,17 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 93.98 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3396e4-79bc-44f8-947c-5a39d515a2d6")
-	)
-	(wire
-		(pts
-			(xy 93.98 58.42) (xy 93.98 85.09)
+			(xy 93.98 69.85) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1147,8 +1577,193 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "My_Connector:413638-E")
+		(at 228.6 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9254a78c-4b65-45c6-afe3-eb895d8185aa")
+		(property "Reference" "J2"
+			(at 228.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "413638-E"
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Connector:TEConnectivity_413638E"
+			(at 250.19 191.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
+			(at 250.19 291.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "15 Position Header, Male Blades Connector Solder 0.300\" (7.62mm) Through Hole, Right Angle"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at 250.19 491.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 250.19 591.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "413638-E"
+			(at 250.19 691.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 250.19 791.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 250.19 891.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 250.19 991.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 250.19 1091.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "D22"
+			(uuid "02b8cf50-e0bb-4fb1-b7fd-5fa3cf9a10d8")
+		)
+		(pin "Z16"
+			(uuid "834621ac-d8ba-4ed5-95b7-49499b1166fe")
+		)
+		(pin "Z24"
+			(uuid "02aa1ccf-2ea9-4a66-ab50-a967cde610ac")
+		)
+		(pin "MH1"
+			(uuid "94b63e58-5904-42c3-82c6-dd013d4ff0ac")
+		)
+		(pin "Z4"
+			(uuid "d1cbc1e3-9d1c-4d55-bb2c-18fecd7cd31c")
+		)
+		(pin "D10"
+			(uuid "ce19b46f-22da-40e9-96c0-17f4dad97e5d")
+		)
+		(pin "D18"
+			(uuid "ce81ec06-47cd-412f-adfe-11a7883d7c88")
+		)
+		(pin "Z32"
+			(uuid "da3fc8d9-8359-4305-9b72-2a70555f1ad0")
+		)
+		(pin "D30"
+			(uuid "110bc939-1106-483f-b617-627865cdf11f")
+		)
+		(pin "MH2"
+			(uuid "2549e693-4c0e-4571-ad79-ba676b6ecc86")
+		)
+		(pin "D26"
+			(uuid "93474227-e837-4c13-a002-78e4be8620b3")
+		)
+		(pin "D14"
+			(uuid "e26d151c-535d-46eb-8ba4-278361ba5c81")
+		)
+		(pin "Z28"
+			(uuid "cc286690-eda3-4704-b8fb-73609f34ac75")
+		)
+		(pin "Z8"
+			(uuid "51715f23-67c0-4dc1-9cfc-bce1cd859f39")
+		)
+		(pin "Z20"
+			(uuid "9fd274ec-b79e-4779-81ee-727ef95e3272")
+		)
+		(pin "D6"
+			(uuid "239770e6-75d6-4788-accd-db0ddcc02ef8")
+		)
+		(pin "Z12"
+			(uuid "bf56ad6a-8861-4d1a-8a75-b53360ae0f0e")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 59.69 54.61)
+		(at 59.69 66.04)
 		(size 26.67 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1160,7 +1775,7 @@
 		)
 		(uuid "2168827a-beb7-4093-81fb-f68e70ab414e")
 		(property "Sheetname" "HalfBridge_Diff"
-			(at 59.69 53.8984 0)
+			(at 59.69 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1784,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Diff.kicad_sch"
-			(at 59.69 65.3546 0)
+			(at 59.69 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1793,7 @@
 			)
 		)
 		(pin "vcc" input
-			(at 59.69 58.42 180)
+			(at 59.69 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1803,7 @@
 			(uuid "47c63d49-690b-48c4-a7fd-3862830b6c2b")
 		)
 		(pin "gnd" input
-			(at 59.69 60.96 180)
+			(at 59.69 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1813,7 @@
 			(uuid "f22f3e7c-637b-4774-9de6-cb1ac1c10f59")
 		)
 		(pin "inb_d" output
-			(at 86.36 60.96 0)
+			(at 86.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1823,7 @@
 			(uuid "3d66a436-9054-4191-9344-473178ce52c3")
 		)
 		(pin "ina_d" output
-			(at 86.36 58.42 0)
+			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1833,7 @@
 			(uuid "ab400ca8-4c21-4758-9e55-70ba768d2102")
 		)
 		(pin "inen_d" output
-			(at 86.36 63.5 0)
+			(at 86.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
