@@ -1019,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 102.87) (xy 154.94 102.87)
+			(xy 142.24 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1079,6 +1079,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3538d2d1-89f9-4413-9378-693824c1d3f7")
+	)
+	(wire
+		(pts
 			(xy 54.61 72.39) (xy 54.61 91.44)
 		)
 		(stroke
@@ -1089,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 154.94 97.79)
+			(xy 142.24 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 154.94 100.33)
+			(xy 142.24 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 154.94 95.25)
+			(xy 142.24 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1326,6 +1336,16 @@
 			(type default)
 		)
 		(uuid "dcf54e7a-be6c-41f1-a9b5-625ca6701484")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbf787d-699f-4b19-bba0-3e3a46bfaaa8")
 	)
 	(wire
 		(pts
@@ -1359,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 95.25) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aea628-3817-48e0-af83-8db4cb210fd2")
+	)
+	(wire
+		(pts
 			(xy 44.45 119.38) (xy 54.61 119.38)
 		)
 		(stroke
@@ -1366,6 +1396,171 @@
 			(type default)
 		)
 		(uuid "fcde16f0-a9bd-4a48-b0cd-95fbfb07a41d")
+	)
+	(label "dcn"
+		(at 241.3 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "060916ea-6ac6-40ce-9b49-174239873199")
+	)
+	(label "dcp"
+		(at 215.9 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c9e9a9c-2bfd-40e5-92d4-c5ae70773d2b")
+	)
+	(label "dcp"
+		(at 241.3 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6177b4eb-1285-43a5-bded-6788d12588c3")
+	)
+	(label "ph"
+		(at 241.3 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65274a6d-1734-4b20-8d3c-0b43acbc3352")
+	)
+	(label "dcn"
+		(at 241.3 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cca1f4f-db12-468e-ad3c-51f690df1b0a")
+	)
+	(label "dcp"
+		(at 182.88 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7638988e-bb0d-4e25-912f-7d36758df5b0")
+	)
+	(label "ph"
+		(at 215.9 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b047eae-410f-477d-9f16-fa167b47563b")
+	)
+	(label "dcn"
+		(at 215.9 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f02dae6-a133-40ea-b528-1ae5f8bee18b")
+	)
+	(label "ph"
+		(at 215.9 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d6da194-b892-4dfe-9e6b-918553d89e2b")
+	)
+	(label "dcp"
+		(at 241.3 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e29f11-d144-4098-84f0-6dbf3bcf631d")
+	)
+	(label "dcp"
+		(at 215.9 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb4659d7-56f5-462a-a07c-b4046d28c900")
+	)
+	(label "ph"
+		(at 182.88 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e4f055-645a-48a3-8784-e2aa0f8959b1")
+	)
+	(label "dcn"
+		(at 182.88 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d71e64df-bd87-42ea-bf56-679d1380b730")
+	)
+	(label "dcn"
+		(at 215.9 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5c7ecc7-6e5a-4d15-b7dd-c9529e187a18")
+	)
+	(label "ph"
+		(at 241.3 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed2ffd0b-9580-47f3-ab51-06739eb8819c")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -1579,16 +1774,16 @@
 	)
 	(symbol
 		(lib_id "My_Connector:413638-E")
-		(at 228.6 96.52 0)
+		(at 228.6 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9254a78c-4b65-45c6-afe3-eb895d8185aa")
 		(property "Reference" "J2"
-			(at 228.6 78.74 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1791,7 @@
 			)
 		)
 		(property "Value" "413638-E"
-			(at 228.6 81.28 0)
+			(at 228.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1799,7 @@
 			)
 		)
 		(property "Footprint" "My_Connector:TEConnectivity_413638E"
-			(at 250.19 191.44 0)
+			(at 250.19 0.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
-			(at 250.19 291.44 0)
+			(at 250.19 -99.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1819,7 @@
 			)
 		)
 		(property "Description" "15 Position Header, Male Blades Connector Solder 0.300\" (7.62mm) Through Hole, Right Angle"
-			(at 228.6 96.52 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1828,7 @@
 			)
 		)
 		(property "Height" "13"
-			(at 250.19 491.44 0)
+			(at 250.19 -299.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1838,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 250.19 591.44 0)
+			(at 250.19 -399.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1848,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "413638-E"
-			(at 250.19 691.44 0)
+			(at 250.19 -499.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1858,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 250.19 791.44 0)
+			(at 250.19 -599.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +1868,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 250.19 891.44 0)
+			(at 250.19 -699.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1878,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 250.19 991.44 0)
+			(at 250.19 -799.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1888,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 250.19 1091.44 0)
+			(at 250.19 -899.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2262,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 92.71)
+		(at 148.59 92.71)
 		(size 33.02 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -2079,7 +2274,7 @@
 		)
 		(uuid "e430685f-ad0a-4a48-becd-63dd913bcc64")
 		(property "Sheetname" "HalfBridge_Power"
-			(at 154.94 91.9984 0)
+			(at 148.59 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2283,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Power.kicad_sch"
-			(at 154.94 105.9946 0)
+			(at 148.59 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2292,7 @@
 			)
 		)
 		(pin "ph" output
-			(at 187.96 95.25 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2302,7 @@
 			(uuid "21366523-3a12-42c9-8d27-76234f0e1500")
 		)
 		(pin "dcp" input
-			(at 187.96 99.06 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2312,7 @@
 			(uuid "4992e1fc-2a0f-4cc9-8fce-ef3ebe6e7aa1")
 		)
 		(pin "dcn" input
-			(at 187.96 102.87 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2322,7 @@
 			(uuid "09b214c1-692c-4ec4-89dd-23073db1098e")
 		)
 		(pin "gh" input
-			(at 154.94 95.25 180)
+			(at 148.59 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2332,7 @@
 			(uuid "6f86b3e5-601c-4422-a520-187d9cf75616")
 		)
 		(pin "kh" input
-			(at 154.94 97.79 180)
+			(at 148.59 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2342,7 @@
 			(uuid "ca49f85a-e44d-48e8-8995-f37ecc6bcbe9")
 		)
 		(pin "gl" input
-			(at 154.94 100.33 180)
+			(at 148.59 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2352,7 @@
 			(uuid "446e7098-e95e-452d-a847-64f7fa0242ca")
 		)
 		(pin "kl" input
-			(at 154.94 102.87 180)
+			(at 148.59 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
