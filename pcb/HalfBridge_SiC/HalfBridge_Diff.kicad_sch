@@ -5,6 +5,108 @@
 	(uuid "7fcbcaca-473f-445a-b735-03899676ff15")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -832,6 +934,18 @@
 		)
 	)
 	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d0cf29-dea8-483b-8149-7ef4880b179a")
+	)
+	(junction
+		(at 77.47 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bf7480d-a77f-404c-8a72-dc9c8691d436")
+	)
+	(junction
 		(at 100.33 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -850,10 +964,28 @@
 		(uuid "8fcfc317-951b-4aae-9da4-6cd1e1d836ca")
 	)
 	(junction
+		(at 77.47 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b89da1-455a-4b61-8490-9de147357773")
+	)
+	(junction
+		(at 77.47 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae66e49b-3ffb-4a78-b3b0-d20ca7ca87d4")
+	)
+	(junction
 		(at 120.65 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8fcbe8-460e-4ce6-aa8a-e31e72dec5cc")
+	)
+	(junction
+		(at 76.2 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e1c558-a985-4903-a92a-fd25b52d0b87")
 	)
 	(junction
 		(at 121.92 105.41)
@@ -867,15 +999,11 @@
 		(color 0 0 0 0)
 		(uuid "e4767aeb-7631-471e-a3f1-ef4fe6f0eb84")
 	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 121.92 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c07e84-21ad-466c-9d97-70f8eacbf839")
+	(junction
+		(at 77.47 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3d6b4a-40a0-4eaf-b542-6f60c9d532db")
 	)
 	(wire
 		(pts
@@ -916,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "1b01a259-58aa-46de-abe7-45d34c89cd64")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b438c7c-9a5c-4646-a548-df65e50e0460")
 	)
 	(wire
 		(pts
@@ -1009,6 +1147,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 74.93) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d30503f-c2d2-43ce-ad11-62ef99eb43ce")
+	)
+	(wire
+		(pts
 			(xy 77.47 101.6) (xy 81.28 101.6)
 		)
 		(stroke
@@ -1016,6 +1164,16 @@
 			(type default)
 		)
 		(uuid "41cfc9f2-659d-4441-b479-160cfa615be2")
+	)
+	(wire
+		(pts
+			(xy 40.64 149.86) (xy 40.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e9b0da-d3c4-40f4-b264-e2f330d40901")
 	)
 	(wire
 		(pts
@@ -1099,6 +1257,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 105.41) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75739606-c5be-43c0-a444-9c31a5ee5a02")
+	)
+	(wire
+		(pts
 			(xy 100.33 130.81) (xy 100.33 127)
 		)
 		(stroke
@@ -1146,6 +1314,16 @@
 			(type default)
 		)
 		(uuid "9f4d3002-4cb2-4772-9397-b96c49384db1")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f772c63-4c48-4734-be1e-d0c0d1b4f40d")
 	)
 	(wire
 		(pts
@@ -1406,6 +1584,17 @@
 		)
 		(uuid "3cbf6d3d-c4d0-41c9-8074-16f7853c7b60")
 	)
+	(label "ina_db"
+		(at 44.45 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cdc27be-9926-49a4-a995-394cea2effeb")
+	)
 	(label "vcc"
 		(at 97.79 127 0)
 		(fields_autoplaced yes)
@@ -1461,17 +1650,6 @@
 		)
 		(uuid "5769aac3-d208-4bcb-8f1b-33ea87027cc0")
 	)
-	(label "ina_da"
-		(at 64.77 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57f8d2f1-22bc-4bb9-9fee-2a0166d0e224")
-	)
 	(label "gnd"
 		(at 36.83 50.8 0)
 		(fields_autoplaced yes)
@@ -1482,17 +1660,6 @@
 			(justify left bottom)
 		)
 		(uuid "658e81aa-6a9a-4fb7-88b5-7e9fb9b31eb0")
-	)
-	(label "inen_db"
-		(at 67.31 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6892e582-7812-428e-8da5-69362c51f5d1")
 	)
 	(label "inb_da"
 		(at 43.18 105.41 0)
@@ -1549,8 +1716,8 @@
 		)
 		(uuid "7d291728-361c-437a-b446-7fffb7928e3b")
 	)
-	(label "inen_da"
-		(at 67.31 142.24 0)
+	(label "gnd"
+		(at 39.37 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1558,7 +1725,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "800f1ae0-fdbf-4a2c-b96f-e664ebac945f")
+		(uuid "84407748-fa0c-4c7a-9639-7d1507f64756")
 	)
 	(label "gnd"
 		(at 121.92 149.86 180)
@@ -1570,17 +1737,6 @@
 			(justify right bottom)
 		)
 		(uuid "a18312e9-62fb-4ce3-87d9-eb9b5db7279a")
-	)
-	(label "inb_db"
-		(at 66.04 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a20c1c52-2f1b-4734-a02f-bb9923f8787d")
 	)
 	(label "ina_nd"
 		(at 105.41 67.31 0)
@@ -1594,7 +1750,18 @@
 		(uuid "b20f9c5b-77ed-40be-a5bf-b375f09ba999")
 	)
 	(label "gnd"
-		(at 121.92 114.3 180)
+		(at 40.64 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbfefd08-acda-4b38-9e57-7d5e8f534180")
+	)
+	(label "gnd"
+		(at 119.38 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1615,8 +1782,8 @@
 		)
 		(uuid "d4714612-894b-4546-bf8f-76d5d9ccac1f")
 	)
-	(label "inb_da"
-		(at 66.04 106.68 0)
+	(label "inen_da"
+		(at 45.72 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1624,7 +1791,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "db68ac6a-8be5-4136-9a27-899d540352c3")
+		(uuid "e29b2859-db04-4734-b115-7f001ae0c63d")
+	)
+	(label "inen_db"
+		(at 45.72 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e968259e-cd30-477e-8003-4ab27f8099ed")
+	)
+	(label "ina_da"
+		(at 44.45 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eca11264-f592-4c88-9267-60b67230b9a2")
 	)
 	(label "gnd"
 		(at 109.22 53.34 0)
@@ -1636,17 +1825,6 @@
 			(justify left bottom)
 		)
 		(uuid "f449fee3-9f54-4644-9ba9-4d1c3d34d12f")
-	)
-	(label "ina_db"
-		(at 64.77 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa4ea4a2-62ef-4919-91f8-2b2f8696491c")
 	)
 	(label "gnd"
 		(at 109.22 127 0)
@@ -1729,7 +1907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "019524e4-0949-40c8-ad6f-508cc23492b7")
-		(property "Reference" "J14"
+		(property "Reference" "J6"
 			(at 35.56 105.4099 0)
 			(effects
 				(font
@@ -1747,7 +1925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SV-L-P"
+		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SH-L-K"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -1786,7 +1964,74 @@
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J14")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0873a804-f474-4f5e-9453-a7ba72e44617")
+		(property "Reference" "TP9"
+			(at 80.01 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eefc9c98-addf-4d76-9686-cf296cf3ba2e")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1802,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b421c84-4dee-42ea-945e-5f8b97f1b962")
-		(property "Reference" "R26"
+		(property "Reference" "R35"
 			(at 118.11 99.06 90)
 			(effects
 				(font
@@ -1818,7 +2063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 107.188 90)
 			(effects
 				(font
@@ -1854,7 +2099,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R26")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1870,7 +2115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc4855b-b4dd-45cc-978e-040fefdcd201")
-		(property "Reference" "R27"
+		(property "Reference" "R34"
 			(at 116.84 134.62 90)
 			(effects
 				(font
@@ -1886,7 +2131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 116.84 142.748 90)
 			(effects
 				(font
@@ -1922,7 +2167,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R27")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1938,7 +2183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29d8bef9-c7e7-470a-9dd4-f0eb35cdb65e")
-		(property "Reference" "R25"
+		(property "Reference" "R33"
 			(at 116.84 60.96 90)
 			(effects
 				(font
@@ -1954,7 +2199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 116.84 69.088 90)
 			(effects
 				(font
@@ -1990,76 +2235,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 127 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bb93a90-27e1-46e1-86c6-5b5dea01f0c2")
-		(property "Reference" "J12"
-			(at 129.54 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 129.54 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 127 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4b8349a-67e1-4720-b1ab-f6417996ed4d")
-		)
-		(pin "2"
-			(uuid "8989a94f-23a0-4072-bed5-c972499f5772")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J12")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dfb4440-09fb-466d-a461-dbefdcf119e4")
-		(property "Reference" "C32"
+		(property "Reference" "C38"
 			(at 105.41 83.82 90)
 			(effects
 				(font
@@ -2127,7 +2303,141 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "C32")
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f0700d-8087-4720-ba5c-c3d42b22d92a")
+		(property "Reference" "TP10"
+			(at 80.01 146.8119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 149.3519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a103152-dadf-4884-b817-55c8cb38bd29")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42e000e9-ecea-4239-b901-6958a4529382")
+		(property "Reference" "TP6"
+			(at 78.74 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 78.74 75.6919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708b21ed-8221-4121-892f-d1af1fd4b13d")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ba61662-f6e9-4654-ad99-bbd8fe3785a7")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 129.54 111.7599 0)
 			(effects
 				(font
@@ -2160,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -2196,7 +2506,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53b53b69-1325-428b-8338-46af8114dfd3")
-		(property "Reference" "R24"
+		(property "Reference" "R32"
 			(at 80.01 139.6999 0)
 			(effects
 				(font
@@ -2266,25 +2576,24 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R24")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 59.69 66.04 0)
+		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
+		(at 40.64 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6862ce36-a5b4-4995-9903-1e05c74ad88b")
-		(property "Reference" "J7"
-			(at 57.15 66.0399 0)
+		(dnp no)
+		(uuid "68b21cae-67dc-4576-86da-b700f55cf268")
+		(property "Reference" "J8"
+			(at 38.1 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,8 +2601,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 57.15 68.5799 0)
+		(property "Value" "Conn_01x02_Shielded"
+			(at 38.1 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,8 +2610,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 59.69 66.04 0)
+		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SH-L-K"
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 66.04 0)
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,25 +2628,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 66.04 0)
+		(property "Description" "Generic shielded connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ec8f6bda-faf4-45b9-9390-18df84613a3b")
 		)
 		(pin "2"
-			(uuid "9ceb9758-ee5b-4b68-b352-2d3a9a84219f")
+			(uuid "d6bf3fdb-f511-4978-9765-a1035c466ab7")
+		)
+		(pin "1"
+			(uuid "2a3266ca-3dee-4f3f-8a82-4726f143ba7a")
+		)
+		(pin "SH"
+			(uuid "8b8753b1-aa61-47c9-8bb0-c5726e2f3c1c")
 		)
 		(instances
-			(project ""
+			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b3a2fd9-5d98-47b1-9756-b40bde46ad36")
-		(property "Reference" "C33"
+		(property "Reference" "C39"
 			(at 105.41 119.38 90)
 			(effects
 				(font
@@ -2405,7 +2717,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "C33")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2413,86 +2725,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 62.23 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8349eba7-4131-44d7-9433-bfb42cf6c9c0")
-		(property "Reference" "J9"
-			(at 59.69 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 59.69 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0842df79-8f03-4134-93f0-d401d93939c9")
-		)
-		(pin "2"
-			(uuid "c2d1a975-7d6e-4493-9c6f-af4ee77660e7")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 125.73 73.66 0)
+		(at 127 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d17456d-a3b8-4fb2-9b08-6a8618beae49")
-		(property "Reference" "J10"
-			(at 128.27 73.6599 0)
+		(uuid "71b62bcc-47bc-44ba-8ed0-bbc63d184a82")
+		(property "Reference" "J11"
+			(at 129.54 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2742,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 128.27 76.1999 0)
+			(at 129.54 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,8 +2750,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 125.73 73.66 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 73.66 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2769,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 73.66 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,15 +2778,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "95ef799d-2630-4898-9ac6-cd98728b846a")
+			(uuid "91fd6e0e-2dfb-4589-8726-1e26bf27f9f0")
 		)
 		(pin "2"
-			(uuid "aeec7a4c-ab37-43ef-bcda-54a7ccf9623a")
+			(uuid "81eb67d2-04cc-48c4-a571-47d6638dbd41")
 		)
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J10")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d1253c2-042d-40bc-8b71-4334f6800d3e")
+		(property "Reference" "TP8"
+			(at 80.01 111.2519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 113.7919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e075d9a-0341-4fea-8441-7839b4c642d5")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9560d702-872d-45a2-9cc6-65403c352ad1")
-		(property "Reference" "R22"
+		(property "Reference" "R30"
 			(at 78.74 66.0399 0)
 			(effects
 				(font
@@ -2615,7 +2923,76 @@
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R22")
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 125.73 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9871ac9f-35ed-4eef-8132-86fa6b23f862")
+		(property "Reference" "J9"
+			(at 128.27 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 128.27 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55ff79c-ef5d-4a62-816c-03fc8014ec1c")
+		)
+		(pin "2"
+			(uuid "b412730e-4d34-4620-a9d1-5b8b389c05fb")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2631,7 +3008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7102317-3c4d-4842-bfb4-898da26a8cc2")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 105.41 45.72 90)
 			(effects
 				(font
@@ -2683,7 +3060,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "C31")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2699,7 +3076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e0228f-8976-4ab4-9437-f6647ecc97a1")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 109.22 99.0914 0)
 			(effects
 				(font
@@ -2763,7 +3140,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2779,7 +3156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf5b3e6-8296-42a8-b9bb-c6e40708195e")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 109.22 60.9914 0)
 			(effects
 				(font
@@ -2843,25 +3220,24 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 60.96 104.14 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint")
+		(at 76.2 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc84d114-5a9d-48be-b984-6e14fa2aa52e")
-		(property "Reference" "J8"
-			(at 58.42 104.1399 0)
+		(uuid "e6175d27-f672-4d28-8fa7-2726c989b994")
+		(property "Reference" "TP5"
+			(at 78.74 58.9279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,8 +3245,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 58.42 106.6799 0)
+		(property "Value" "TestPoint"
+			(at 78.74 61.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,8 +3254,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 60.96 104.14 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 104.14 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,8 +3272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 104.14 0)
+		(property "Description" "test point"
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,15 +3282,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b56e83f5-3397-494f-9bd8-93818d9ad8ca")
-		)
-		(pin "2"
-			(uuid "ab173a52-dbd1-4d80-a685-ae6debd40e51")
+			(uuid "4c942b40-793f-44c0-a8bd-5107b306a497")
 		)
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "J8")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2930,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8095ff3-feb8-4435-bfaf-571f3ff45238")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 109.22 134.6514 0)
 			(effects
 				(font
@@ -2994,7 +3367,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb2b35af-5897-4910-a926-30ca31966806")
-		(property "Reference" "R23"
+		(property "Reference" "R31"
 			(at 80.01 104.1399 0)
 			(effects
 				(font
@@ -3064,7 +3437,147 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
-					(reference "R23")
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
+		(at 39.37 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecc12513-2e83-4128-9aea-75becf2828c4")
+		(property "Reference" "J7"
+			(at 36.83 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Shielded"
+			(at 36.83 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SH-L-K"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic shielded connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8d11501-02c3-473f-a8a6-dd113b26eefe")
+		)
+		(pin "1"
+			(uuid "ec3b4250-fd1c-414e-87d6-a63675fb1fa9")
+		)
+		(pin "SH"
+			(uuid "397855a9-67bd-4d27-8450-2f76e19cf4e0")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6ee80fc-442a-435f-a37d-e2b1d7ab156f")
+		(property "Reference" "TP7"
+			(at 80.01 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f086275-e3eb-43b1-a33f-5f87a03bdcff")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/2168827a-beb7-4093-81fb-f68e70ab414e"
+					(reference "TP7")
 					(unit 1)
 				)
 			)

@@ -5,7 +5,7 @@
 	(uuid "3c187ffa-7f66-4861-b077-b6965c821fc2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
+			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -82,76 +104,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -1397,6 +1349,16 @@
 		)
 		(uuid "fcde16f0-a9bd-4a48-b0cd-95fbfb07a41d")
 	)
+	(text "Vcc = 5V"
+		(exclude_from_sim no)
+		(at 39.878 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30c85839-ff97-4ed5-9132-1b3d3bb41135")
+	)
 	(label "dcn"
 		(at 241.3 102.87 0)
 		(fields_autoplaced yes)
@@ -1485,6 +1447,17 @@
 		)
 		(uuid "7f02dae6-a133-40ea-b528-1ae5f8bee18b")
 	)
+	(label "lvcc"
+		(at 44.45 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85619bf4-37bb-4914-953f-bd2a227d7955")
+	)
 	(label "ph"
 		(at 215.9 90.17 180)
 		(fields_autoplaced yes)
@@ -1563,7 +1536,7 @@
 		(uuid "ed2ffd0b-9580-47f3-ab51-06739eb8819c")
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 36.83 95.25 0)
 		(mirror y)
 		(unit 1)
@@ -1571,7 +1544,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5df0a115-6542-4199-9029-bdb8de95c3cc")
+		(uuid "47639fa9-c7b8-4438-9aac-1a107ffdc92b")
 		(property "Reference" "J1"
 			(at 34.29 95.2499 0)
 			(effects
@@ -1581,7 +1554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "Conn_01x02"
 			(at 34.29 97.7899 0)
 			(effects
 				(font
@@ -1590,7 +1563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_1.5_2-H-3.5_1x02_P3.5mm_Horizontal"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -1608,7 +1581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -1618,10 +1591,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "56bb5b83-a6f8-4a05-a2f2-40e7b70687c5")
+			(uuid "a2ed0699-2f01-46dd-ba9f-2fc48e6d996e")
 		)
 		(pin "1"
-			(uuid "8883dce9-f4b1-419f-b05e-13f922dfd0d4")
+			(uuid "397df505-7824-43ee-9bf7-8bf41b3998fa")
 		)
 		(instances
 			(project ""
