@@ -3822,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 142.24 62.23)
+			(xy 127 80.01) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4492,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 132.08 62.23)
+			(xy 114.3 80.01) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5005,7 +5005,7 @@
 		(uuid "4ca91748-4e1d-4877-8090-ad1ebe64913c")
 	)
 	(label "vcc"
-		(at 127 62.23 0)
+		(at 114.3 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5522,7 +5522,7 @@
 		(uuid "b03b00d0-056d-4cf2-a91e-03485ef59bfa")
 	)
 	(label "gnd"
-		(at 127 69.85 0)
+		(at 114.3 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5753,7 +5753,7 @@
 		(uuid "db38cf2c-7a51-48ae-8250-7c3ac7506a81")
 	)
 	(label "gnd"
-		(at 142.24 69.85 0)
+		(at 129.54 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5808,7 +5808,7 @@
 		(uuid "e90883f8-840f-43f4-9639-0f0f64d77f98")
 	)
 	(label "vcci"
-		(at 142.24 62.23 0)
+		(at 129.54 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
 			(at 69.85 166.37 0)
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 66.04 0)
+		(at 114.3 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8393,7 +8393,7 @@
 		(fields_autoplaced yes)
 		(uuid "759d60f6-e303-4605-a865-608e92694b6f")
 		(property "Reference" "C12"
-			(at 130.81 64.7699 0)
+			(at 118.11 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 130.81 67.3099 0)
+			(at 118.11 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8411,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 127.9652 69.85 0)
+			(at 115.2652 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 66.04 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8429,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 66.04 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8597,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 173.99 137.16 0)
 		(unit 1)
@@ -9319,7 +9318,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 135.89 62.23 90)
+		(at 123.19 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9328,7 +9327,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab5f1581-45c5-41c8-ab91-90ac1cc70771")
 		(property "Reference" "L1"
-			(at 135.89 57.15 90)
+			(at 123.19 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9335,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 135.89 59.69 90)
+			(at 123.19 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9343,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 135.89 62.23 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 62.23 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9361,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 135.89 62.23 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
 			(at 69.85 181.61 0)
 			(effects
 				(font
@@ -10185,7 +10184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
 			(at 125.73 190.5 0)
 			(effects
 				(font
@@ -10377,7 +10376,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 172.72 38.1 0)
 		(unit 1)
@@ -10774,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
 			(at 134.62 167.64 0)
 			(effects
 				(font
@@ -10968,7 +10966,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 66.04 0)
+		(at 129.54 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10977,7 +10975,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea66a5e2-f4fc-40a1-b1c7-f2562e1eaac7")
 		(property "Reference" "C13"
-			(at 146.05 64.7699 0)
+			(at 133.35 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,8 +10983,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 146.05 67.3099 0)
+		(property "Value" "1 u"
+			(at 133.35 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +10993,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 143.2052 69.85 0)
+			(at 130.5052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 66.04 0)
+			(at 129.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +11011,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 66.04 0)
+			(at 129.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
