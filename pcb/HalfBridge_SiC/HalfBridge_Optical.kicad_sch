@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "ccb0b5ad-6a7e-4480-9423-91e513a5506c")
 	(paper "A4")
+	(title_block
+		(title "Optical receptors x3")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -890,7 +894,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 123.19 73.66)
+			(xy 81.28 73.66) (xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1037,6 +1041,25 @@
 			(type default)
 		)
 		(uuid "f5fbb12b-2fc2-40a1-ab9c-10fbb1fcdec5")
+	)
+	(text_box "Jump R=0 when Optical Rx is used.\n\nOtherwise, DNP whole module (at least R jumper)"
+		(exclude_from_sim no)
+		(at 74.93 152.4 0)
+		(size 53.34 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "41884e51-e42b-4bf1-9b6e-99a5c8a4deeb")
 	)
 	(label "gnd"
 		(at 57.15 48.26 0)
@@ -1305,7 +1328,7 @@
 	)
 	(hierarchical_label "inb"
 		(shape output)
-		(at 123.19 73.66 0)
+		(at 125.73 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1361,7 +1384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1918cbf8-a104-4a6b-a56f-ffe3588a0385")
-		(property "Reference" "C32"
+		(property "Reference" "C36"
 			(at 90.17 95.2499 0)
 			(effects
 				(font
@@ -1415,7 +1438,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C32")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1431,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261fb8df-b6c4-4cea-8862-10644ab18ea8")
-		(property "Reference" "L2"
+		(property "Reference" "L4"
 			(at 95.25 48.26 90)
 			(effects
 				(font
@@ -1483,7 +1506,7 @@
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "L2")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -1499,7 +1522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fd0d42-8d3c-413b-9a26-42f0652030fa")
-		(property "Reference" "C34"
+		(property "Reference" "C38"
 			(at 105.41 55.8799 0)
 			(effects
 				(font
@@ -1553,7 +1576,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C34")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1569,7 +1592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2af9d0d6-3c85-4b7a-a95b-4c14c3311cc5")
-		(property "Reference" "C36"
+		(property "Reference" "C40"
 			(at 105.41 133.3499 0)
 			(effects
 				(font
@@ -1623,7 +1646,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C36")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -1639,7 +1662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3471ee4b-f8e2-4828-b785-d7395fb410b9")
-		(property "Reference" "C31"
+		(property "Reference" "C35"
 			(at 90.17 55.8799 0)
 			(effects
 				(font
@@ -1693,7 +1716,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C31")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -1716,7 +1739,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 77.47 69.85 90)
 			(effects
 				(font
@@ -1783,7 +1806,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 77.47 105.41 90)
 			(effects
 				(font
@@ -1850,7 +1873,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 77.47 143.51 90)
 			(effects
 				(font
@@ -1910,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b52fa2-6206-45e4-ac62-4048cb6f3f3a")
-		(property "Reference" "C30"
+		(property "Reference" "C34"
 			(at 80.01 133.3499 0)
 			(effects
 				(font
@@ -1964,7 +1987,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C30")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1980,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba80e8d-8bd8-473b-8da8-21128198f971")
-		(property "Reference" "C28"
+		(property "Reference" "C32"
 			(at 80.01 55.8799 0)
 			(effects
 				(font
@@ -2034,7 +2057,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C28")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a26f60ae-4a8c-43a5-bbb9-7f7fd7d29267")
-		(property "Reference" "C35"
+		(property "Reference" "C39"
 			(at 105.41 95.2499 0)
 			(effects
 				(font
@@ -2104,7 +2127,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C35")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b337db-dc81-4005-8c69-9fddff291784")
-		(property "Reference" "C33"
+		(property "Reference" "C37"
 			(at 90.17 133.3499 0)
 			(effects
 				(font
@@ -2174,7 +2197,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C33")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03717c8-e01a-4fd2-abe8-2281953a0c57")
-		(property "Reference" "L3"
+		(property "Reference" "L5"
 			(at 95.25 87.63 90)
 			(effects
 				(font
@@ -2406,7 +2429,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "L3")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -2422,7 +2445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da488be5-51fd-4dc5-97e7-7f20555303d1")
-		(property "Reference" "L4"
+		(property "Reference" "L6"
 			(at 95.25 125.73 90)
 			(effects
 				(font
@@ -2474,7 +2497,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "L4")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -2490,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f182b236-99ee-48dc-9043-7be2550ba0ad")
-		(property "Reference" "C29"
+		(property "Reference" "C33"
 			(at 80.01 95.2499 0)
 			(effects
 				(font
@@ -2544,7 +2567,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6b9f2a3a-4d36-43fe-adee-f56a635b1692"
-					(reference "C29")
+					(reference "C33")
 					(unit 1)
 				)
 			)

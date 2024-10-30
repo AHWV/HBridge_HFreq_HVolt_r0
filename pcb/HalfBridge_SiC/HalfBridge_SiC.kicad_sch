@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "3c187ffa-7f66-4861-b077-b6965c821fc2")
 	(paper "A4")
+	(title_block
+		(title "Half Bridge converter with SiC-MOSFETs")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
