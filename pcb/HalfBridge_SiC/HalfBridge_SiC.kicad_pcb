@@ -36620,7 +36620,7 @@
 		)
 	)
 	(gr_text "VCC:      V\n     		\nVEE:      V         		"
-		(at 58 139.2 0)
+		(at 59.4 139.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "45af18c7-358a-412e-b20a-2e493888940f")
 		(effects
