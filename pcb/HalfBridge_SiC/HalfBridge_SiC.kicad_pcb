@@ -36581,7 +36581,7 @@
 		)
 	)
 	(gr_text "INA/PWM\n\n\n\n\n\n\nINB\n\n\n\n\n\n\nEN/DIS"
-		(at 75.4 85.6 0)
+		(at 77 85.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "18b628cd-7bf1-4d48-bd6d-350769b48dec")
 		(effects
@@ -36763,7 +36763,7 @@
 			(xy 39.5 40.5) (xy 139.5 40.5)
 		)
 		(height -5.055)
-		(gr_text "100.0000 mm"
+		(gr_text "100,0000 mm"
 			(at 89.5 34.295 0)
 			(layer "Cmts.User")
 			(uuid "0770ef61-414d-48ea-a56d-a097910a134f")
@@ -36796,7 +36796,7 @@
 			(xy 139.5 40.5) (xy 139.5 140.5)
 		)
 		(height -3.85)
-		(gr_text "100.0000 mm"
+		(gr_text "100,0000 mm"
 			(at 142.2 90.5 90)
 			(layer "Cmts.User")
 			(uuid "08ce7c12-7ae5-4e81-b081-37e28dbaf113")
