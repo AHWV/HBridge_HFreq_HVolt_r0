@@ -24,3 +24,18 @@
    # margen más amplio entre pistas de la clase de red HV
    (constraint clearance (min 3mm))
    (condition "A.NetName == '/HalfBridge_Power/ph' && B.NetName == '/HalfBridge_Power/dcn' "))
+
+(rule HV_HV5
+   # margen más amplio entre pistas de la clase de red HV
+   (constraint clearance (min 3mm))
+   (condition "A.NetName == '/ph' && B.NetName == '/dcp' "))
+
+(rule HV_HV6
+   # margen más amplio entre pistas de la clase de red HV
+   (constraint clearance (min 3mm))
+   (condition "A.NetName == '/ph' && B.NetName == '/dcm' "))
+
+(rule HV_HV7
+   # margen más amplio entre pistas de la clase de red HV
+   (constraint clearance (min 3mm))
+   (condition "A.NetName == '/ph' && B.NetName == '/dcn' "))

@@ -452,4 +452,63 @@
 			)
 		)
 	)
+	(symbol "594750-E"
+		(extends "413638-E")
+		(property "Reference" "J"
+			(at 8.89 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "413638-E"
+			(at 8.89 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "My_Connector:TE_594750-E"
+			(at 21.59 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Receptacle, Board-to-Board, 15 Position, 5.08 mm [.2 in] Centerline, Printed Circuit Board, 2 Row, Vertical, Standard DIN Size, Eurocard Connectors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DIN 41612 H15"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )

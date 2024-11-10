@@ -407,6 +407,32 @@
 		(layer "F.Fab")
 		(uuid "5e363245-1675-4914-99a7-5b3d0982710a")
 	)
+	(fp_text user "D6"
+		(at 17 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "835d30b9-1c58-4482-938a-2ff07affac2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Z4"
+		(at 17 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9114f9db-c857-4307-abca-ec396fbdf37b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at -26.67 11.21 0)
 		(layer "F.Fab")
@@ -490,12 +516,13 @@
 		(remove_unused_layers no)
 		(uuid "1a927cd1-1382-4219-a478-02b047820311")
 	)
-	(pad "Z4" thru_hole circle
+	(pad "Z4" thru_hole rect
 		(at 5.08 5.08)
 		(size 2.4 2.4)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "b76a23e7-ad07-4f78-ba0a-d9c26e75359e")
 	)
 	(pad "Z8" thru_hole circle
