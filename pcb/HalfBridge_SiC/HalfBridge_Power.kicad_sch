@@ -1642,8 +1642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SK 687 50 SA"
-			(at 255.27 35.56 0)
+		(property "Manufacturer Part Number" "SK 687 50 SA"
+			(at 256.54 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

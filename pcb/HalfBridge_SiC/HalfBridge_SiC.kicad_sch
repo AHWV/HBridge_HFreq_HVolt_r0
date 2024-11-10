@@ -2321,8 +2321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "413638-E"
-			(at 279.4 -499.67 0)
+		(property "Manufacturer Part Number" "413638-E"
+			(at 250.19 -499.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
