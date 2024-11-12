@@ -9144,7 +9144,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HalfBridge_SiC:RKZ-052005D")
 		(lib_id "HalfBridge_SiC:RKZ-052005D")
 		(at 173.99 137.16 0)
 		(unit 1)
