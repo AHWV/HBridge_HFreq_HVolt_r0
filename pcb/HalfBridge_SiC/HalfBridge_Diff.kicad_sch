@@ -9,31 +9,34 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
+		(symbol "HalfBridge_SiC:C"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,15 +45,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,12 +71,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -90,11 +106,11 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -109,9 +125,27 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "HalfBridge_SiC:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -250,7 +284,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_Shielded:Conn_01x02_Shielded"
+		(symbol "HalfBridge_SiC:Conn_01x02_Shielded"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -419,264 +453,7 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Interface_UART:MAX3284E"
+		(symbol "HalfBridge_SiC:MAX3284E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -927,6 +704,229 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1940,7 +1940,7 @@
 		(uuid "e66d8d58-564e-49aa-91ae-9df6ad9073da")
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
+		(lib_id "HalfBridge_SiC:Conn_01x02_Shielded")
 		(at 52.07 105.41 0)
 		(mirror y)
 		(unit 1)
@@ -2013,7 +2013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2080,7 +2080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 118.11 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2148,7 +2148,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 116.84 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2216,7 +2216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 116.84 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2284,7 +2284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 105.41 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2352,7 +2352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2419,7 +2419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2486,7 +2486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "HalfBridge_SiC:Conn_01x02")
 		(at 127 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2555,7 +2555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 68.58 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2625,7 +2625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
+		(lib_id "HalfBridge_SiC:Conn_01x02_Shielded")
 		(at 52.07 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -2698,7 +2698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 105.41 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2766,7 +2766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "HalfBridge_SiC:Conn_01x02")
 		(at 127 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2835,7 +2835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2902,7 +2902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 68.58 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2972,7 +2972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "HalfBridge_SiC:Conn_01x02")
 		(at 125.73 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3041,7 +3041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 105.41 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3109,7 +3109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX3284E")
+		(lib_id "HalfBridge_SiC:MAX3284E")
 		(at 97.79 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3189,7 +3189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX3284E")
+		(lib_id "HalfBridge_SiC:MAX3284E")
 		(at 97.79 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3269,7 +3269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3336,7 +3336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX3284E")
+		(lib_id "HalfBridge_SiC:MAX3284E")
 		(at 97.79 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3416,7 +3416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 68.58 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3486,7 +3486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
+		(lib_id "HalfBridge_SiC:Conn_01x02_Shielded")
 		(at 53.34 66.04 0)
 		(mirror y)
 		(unit 1)
@@ -3559,7 +3559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 68.58 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)

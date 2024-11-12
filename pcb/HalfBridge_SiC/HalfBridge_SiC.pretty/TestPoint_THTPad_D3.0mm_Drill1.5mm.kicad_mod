@@ -1,0 +1,111 @@
+(footprint "TestPoint_THTPad_D3.0mm_Drill1.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
+	(tags "test point THT pad")
+	(property "Reference" "REF**"
+		(at 0 -2.398 0)
+		(layer "F.SilkS")
+		(uuid "f16f3954-6615-4c3d-a69a-a803c88184e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "eef2f564-32a3-4641-81c7-4b55b02d2a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed3a9ceb-1653-4d9b-b7b8-00d0363effcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cb2af9b-866b-4da6-bc1c-03c4f980ce35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c7e6b3-9974-46da-859f-42ce125308c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5611be98-3c34-4070-8f09-274ad9b2bf2b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f562608d-f88b-482c-8189-58af7637e17d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.4 0)
+		(layer "F.Fab")
+		(uuid "ef181a27-fa11-41cb-92d5-49c74bf56896")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9097ad6-256e-4a3c-9359-1b0c128396c8")
+	)
+)

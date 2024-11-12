@@ -1,0 +1,283 @@
+(footprint "Nidec_Copal_CAS-D20B1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8756ad20-0745-4482-8509-c3b5ef38f78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "CAS-D20X1"
+		(at 1.025 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99fc3b98-f956-4c9f-98a2-f696aac59764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1eaa04e-ed69-4bc4-acdd-31276eeb3972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a142c1a8-42f2-4088-82e6-cba0c9c610dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bca358e3-921f-41e3-80f8-865800a24653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.5)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f52ea82-edeb-4400-89c4-2f3888e4580e")
+	)
+	(fp_line
+		(start -3.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e898add-38bf-49ee-87c2-d8247195ab26")
+	)
+	(fp_line
+		(start -1.5 2.8)
+		(end -1.5 -2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94e4bb0e-55fd-460e-a032-0f7db84646c9")
+	)
+	(fp_line
+		(start -1 -2.7)
+		(end -1.5 -2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35375e52-e8ef-4180-afb8-8e3eea91896e")
+	)
+	(fp_line
+		(start -1 -2.7)
+		(end 1.5 -2.7)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7971da3b-81b1-47c5-9828-7d3c48b8e95c")
+	)
+	(fp_line
+		(start 1.5 -2.7)
+		(end 1.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44dd13bf-5c9e-4d5b-9bba-e8a03a4e08d6")
+	)
+	(fp_line
+		(start 1.5 2.8)
+		(end -1.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12eb711a-5a09-4195-9c2d-aeefc2ea9c49")
+	)
+	(fp_rect
+		(start -3.75 -2.85)
+		(end 3.75 2.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d15cf104-0321-45ed-8fe2-a35c94524c67")
+	)
+	(fp_line
+		(start -1.5 2.8)
+		(end -1.5 -2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3b57cf42-bea5-4c79-836e-1999a5e89f70")
+	)
+	(fp_line
+		(start -1 -2.7)
+		(end -1.5 -2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "33831af2-30cb-4d69-b79e-214ac7426cdd")
+	)
+	(fp_line
+		(start -1 -2.7)
+		(end 1.5 -2.7)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b79af792-fb72-4061-a7ca-219cf27b474c")
+	)
+	(fp_line
+		(start 1.5 -2.7)
+		(end 1.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "06896599-075e-4e09-9aa7-4399c70a3e5e")
+	)
+	(fp_line
+		(start 1.5 2.8)
+		(end -1.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "31b017a9-f613-4b41-b68e-b9aab82cc4bb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "753863ba-93d2-459f-981f-6d7989b5e17e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2adffe5-cbb6-418e-beaa-14ec459cdd4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.65 -1.75 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2e4b7d02-5322-4b28-a958-c4b5d148f25d")
+	)
+	(pad "2" smd roundrect
+		(at -2.65 0 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0aa9d0d1-2b7a-469e-9a64-9cb2819b07be")
+	)
+	(pad "3" smd roundrect
+		(at -2.65 1.75 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d1df29ed-77ad-4dc7-8f3e-031e81b927e3")
+	)
+	(pad "4" smd roundrect
+		(at 2.65 -1.75 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "07bb5e25-2df9-47d6-b335-3f0995dc5639")
+	)
+	(pad "5" smd roundrect
+		(at 2.65 0 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8256fe12-5d11-4565-877c-f74597f94037")
+	)
+	(pad "6" smd roundrect
+		(at 2.65 1.75 270)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "812f95ed-f83d-41a7-b4e0-1a0e04242c0a")
+	)
+	(model "${KIPRJMOD}/3dmodels/CAS-D20B1.stp"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

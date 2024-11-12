@@ -1,0 +1,161 @@
+(footprint "C_Rect_L42.0mm_W20.0mm_PW37.50mm_PL10.2mm_C4AU"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor C4AU, Radial, 2 or 4 Leads, 500 - 1,800 VDC, for Harsh Environment DC Link")
+	(tags "Capacitor, Radial, DC Link")
+	(property "Reference" "REF**"
+		(at 0 -0.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e6766a6-b209-4789-8c74-79a6635d9de5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "C"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b1f4bec-aa08-4ef1-bc0d-eccf88c389e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "My_Capacitor_THT:C_Rect_L42.0mm_W20.0mm_PW37.50mm_PL10.2mm_C4AU"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6ca05c3-0b36-45d3-8765-8915fe9fcb25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3df22af-2918-4f7b-93c7-f751d5689467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1284f582-7a20-4454-9426-81f588b1f7f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "C4AUNBW5100M3FJ"
+		(at 0 0 360)
+		(layer "F.CrtYd")
+		(hide yes)
+		(uuid "3cf272b9-1bff-4920-8391-7754047d2a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -21.5 -10.5)
+		(end 21.5 10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "777cdbf9-f962-467f-be79-a54191e44cf7")
+	)
+	(fp_rect
+		(start -22 -11)
+		(end 22 11)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b89f74c9-19ab-453f-bb90-b8dcbd550e9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "328b2d3e-0baa-4d29-ad29-a1541110e0ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -18.75 -5.1 180)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51b875f3-0406-44ae-aed3-b1027c5987c5")
+	)
+	(pad "1" thru_hole circle
+		(at -18.75 5.1 180)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5183dcf-8997-4382-8765-f7cae36d993d")
+	)
+	(pad "2" thru_hole circle
+		(at 18.75 -5.1 180)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d722fe8-62bc-4cb6-a29a-06d28347965d")
+	)
+	(pad "2" thru_hole circle
+		(at 18.75 5.1 180)
+		(size 2.3 2.3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac539409-9d84-4252-93f3-96dd421c5e67")
+	)
+	(model "${KIPRJMOD}/3dmodels/C4AUNBW5100M3FJ.step"
+		(offset
+			(xyz -21.5 10.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

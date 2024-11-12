@@ -10,7 +10,7 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74AHC1G86"
+		(symbol "HalfBridge_SiC:74AHC1G86"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -266,109 +266,7 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C"
+		(symbol "HalfBridge_SiC:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -504,7 +402,227 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
+		(symbol "HalfBridge_SiC:CAS-D20X1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAS-D20X1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAS-D20X1_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -649,7 +767,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "HalfBridge_SiC:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -806,7 +924,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "HalfBridge_SiC:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -975,392 +1093,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "My_Converter_DCDC:RKZ-052005D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RKD-052005D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RKZ-052005D_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RKZ-052005D_1_1"
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54) hide
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54) hide
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54) hide
-					(name "+VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "My_Driver_FET:NCV51563"
+		(symbol "HalfBridge_SiC:NCV51563"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2411,27 +2144,40 @@
 				)
 			)
 		)
-		(symbol "My_Switch:CAS-D20X1"
+		(symbol "HalfBridge_SiC:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 0 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAS-D20X1"
-				(at 0 0 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2440,7 +2186,115 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:RKZ-052005D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RKD-052005D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2458,34 +2312,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAS-D20X1_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "CAS-D20X1_0_1"
+			(symbol "RKZ-052005D_0_1"
 				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2496,7 +2335,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
+						(xy 0 -2.54) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -2506,9 +2345,34 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2518,11 +2382,29 @@
 					)
 				)
 			)
-			(symbol "CAS-D20X1_1_1"
+			(symbol "RKZ-052005D_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "VIN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2538,9 +2420,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2555,17 +2437,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -2.54 180)
+				(pin power_in line
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "VIN-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2573,30 +2455,10 @@
 						)
 					)
 				)
-			)
-			(symbol "CAS-D20X1_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
+				(pin power_out line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
+					(name "-VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2612,9 +2474,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "C"
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2629,163 +2491,35 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Reference_Voltage:TL432DBZ"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TL432DBZ"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 0.762 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt Regulator, SOT-23"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode device shunt regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL432DBZ_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TL432DBZ_1_1"
 				(pin passive line
-					(at 0 2.54 270)
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "REF"
+					(name "+VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2795,7 +2529,7 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
+		(symbol "HalfBridge_SiC:SW_Nidec_CAS-120A1"
 			(pin_names
 				(offset 1) hide)
 			(exclude_from_sim no)
@@ -2968,6 +2702,800 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:TL432DBZ"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL432DBZ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 0.762 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL432DBZ_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL432DBZ_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RKZ-052005D_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RKD-052005D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RKZ-052005D_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RKZ-052005D_1_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RKZ-052005D_1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RKD-052005D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RKZ-052005D_1_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RKZ-052005D_1_1_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3652,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 173.99) (xy 82.55 176.53)
+			(xy 107.95 36.83) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4578,7 +5106,7 @@
 	)
 	(text_box "External or internal enable/disable"
 		(exclude_from_sim no)
-		(at 60.96 191.77 0)
+		(at 86.36 54.61 0)
 		(size 38.1 3.81)
 		(stroke
 			(width 0)
@@ -4613,6 +5141,25 @@
 			(justify left top)
 		)
 		(uuid "94863fb1-713c-40ce-8382-f62b61032070")
+	)
+	(text_box "Decoupling capacitors (close to gate driver IC)"
+		(exclude_from_sim no)
+		(at 204.47 85.09 0)
+		(size 16.51 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "afda2c58-dc77-4986-8778-1a8e9577de7e")
 	)
 	(text_box "Vgs offset shunt regulator\n(assymetric turn-off)\n\nVee = Vreg*(Rh/Rl+1)\nVreg = 1.24 V\nRh: Anode (Source) - Regulation pin\nRl: Cathode (Vss)  - Regulation pin"
 		(exclude_from_sim no)
@@ -4719,7 +5266,7 @@
 		(uuid "1360dcd3-3afc-40b8-a3eb-8d815ddea0c4")
 	)
 	(label "vcc"
-		(at 64.77 179.07 180)
+		(at 90.17 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4730,7 +5277,7 @@
 		(uuid "166823b7-d69e-4a5f-b857-59d651c1f5f6")
 	)
 	(label "dis"
-		(at 74.93 166.37 0)
+		(at 100.33 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4906,7 +5453,7 @@
 		(uuid "39f67599-269f-4e66-a82a-24e52e42261b")
 	)
 	(label "lrdis"
-		(at 82.55 176.53 180)
+		(at 107.95 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5049,7 +5596,7 @@
 		(uuid "50a60c9b-7f14-485e-b605-bc00dd555f85")
 	)
 	(label "dis_x"
-		(at 64.77 163.83 180)
+		(at 90.17 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5170,7 +5717,7 @@
 		(uuid "6939b4f8-60f2-449f-bd0c-8a475650ef19")
 	)
 	(label "gnd"
-		(at 93.98 173.99 180)
+		(at 119.38 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5192,7 +5739,7 @@
 		(uuid "6ea5b631-a98d-45c6-b83c-1bcc01134d17")
 	)
 	(label "gnd"
-		(at 64.77 184.15 180)
+		(at 90.17 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5247,7 +5794,7 @@
 		(uuid "7d3c0920-7c01-4f36-a449-89dae56dca8b")
 	)
 	(label "dis_i"
-		(at 74.93 181.61 0)
+		(at 100.33 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5324,7 +5871,7 @@
 		(uuid "8b7984ac-7412-4288-8970-2e14e6676b37")
 	)
 	(label "gnd"
-		(at 82.55 184.15 0)
+		(at 107.95 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5434,7 +5981,7 @@
 		(uuid "9f782fe3-4432-41fe-a9ef-0fa050d449f4")
 	)
 	(label "dis_i"
-		(at 64.77 168.91 180)
+		(at 90.17 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5599,7 +6146,7 @@
 		(uuid "c0a495c6-9814-46d1-a92b-9afc90020551")
 	)
 	(label "dis"
-		(at 82.55 166.37 0)
+		(at 107.95 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5632,7 +6179,7 @@
 		(uuid "c5ccc71a-f1b6-402e-9ec9-118c47094b42")
 	)
 	(label "dis"
-		(at 93.98 166.37 180)
+		(at 119.38 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6015,7 +6562,7 @@
 		(uuid "e31c40b2-651c-4c50-8684-04f95366eabe")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 59.69 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6083,7 +6630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6151,7 +6698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 233.68 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6221,7 +6768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 204.47 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6290,7 +6837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6358,7 +6905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 193.04 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6426,7 +6973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 204.47 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6495,7 +7042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 236.22 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6562,7 +7109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 59.69 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6630,7 +7177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 205.74 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6700,7 +7247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 205.74 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6770,7 +7317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G86")
+		(lib_id "HalfBridge_SiC:74AHC1G86")
 		(at 55.88 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6847,7 +7394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 99.06 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6917,7 +7464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6985,7 +7532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 74.93 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7055,7 +7602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7123,7 +7670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "HalfBridge_SiC:D_Schottky")
 		(at 260.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7191,7 +7738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 204.47 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7261,7 +7808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 76.2 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7331,7 +7878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 231.14 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7401,7 +7948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 233.68 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7470,7 +8017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 233.68 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7540,7 +8087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7608,7 +8155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 218.44 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7678,7 +8225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "HalfBridge_SiC:D_Schottky")
 		(at 260.35 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7746,8 +8293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Switch:CAS-D20X1")
-		(at 69.85 166.37 180)
+		(lib_id "HalfBridge_SiC:CAS-D20X1")
+		(at 95.25 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7755,7 +8302,7 @@
 		(dnp no)
 		(uuid "54aa6c0c-46cc-48c5-a978-7837506f62d4")
 		(property "Reference" "SW4"
-			(at 69.85 175.26 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +8310,7 @@
 			)
 		)
 		(property "Value" "CAS-D20X1"
-			(at 69.85 172.72 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +8318,7 @@
 			)
 		)
 		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 69.85 166.37 0)
+			(at 95.25 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +8327,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 69.85 166.37 0)
+			(at 95.25 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +8336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 166.37 0)
+			(at 95.25 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,8 +8372,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 180.34 0)
+		(lib_id "HalfBridge_SiC:R")
+		(at 107.95 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7835,7 +8382,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c63959e-a81c-43fa-a9a6-d55cb416aeb1")
 		(property "Reference" "R6"
-			(at 85.09 179.0699 0)
+			(at 110.49 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +8391,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 85.09 181.6099 0)
+			(at 110.49 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +8400,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 80.772 180.34 90)
+			(at 106.172 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +8409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 180.34 0)
+			(at 107.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +8418,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 180.34 0)
+			(at 107.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 240.03 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7960,7 +8507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "HalfBridge_SiC:L")
 		(at 149.86 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8028,7 +8575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:TL432DBZ")
+		(lib_id "HalfBridge_SiC:TL432DBZ")
 		(at 227.33 149.86 270)
 		(mirror x)
 		(unit 1)
@@ -8103,7 +8650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "HalfBridge_SiC:LED")
 		(at 76.2 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8173,7 +8720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 204.47 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8243,7 +8790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 218.44 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8313,7 +8860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 99.06 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8383,7 +8930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 114.3 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8453,7 +9000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:TL432DBZ")
+		(lib_id "HalfBridge_SiC:TL432DBZ")
 		(at 224.79 34.29 270)
 		(mirror x)
 		(unit 1)
@@ -8528,7 +9075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 231.14 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8597,7 +9144,8 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Converter_DCDC:RKZ-052005D")
+		(lib_name "HalfBridge_SiC:RKZ-052005D")
+		(lib_id "HalfBridge_SiC:RKZ-052005D")
 		(at 173.99 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8682,7 +9230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 218.44 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8752,7 +9300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 115.57 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8821,7 +9369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8889,7 +9437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 146.05 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8959,7 +9507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 218.44 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9029,7 +9577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 142.24 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9099,7 +9647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(lib_id "HalfBridge_SiC:SW_Nidec_CAS-120A1")
 		(at 34.29 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -9170,7 +9718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 144.78 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9240,7 +9788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G86")
+		(lib_id "HalfBridge_SiC:74AHC1G86")
 		(at 55.88 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9317,7 +9865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "HalfBridge_SiC:L")
 		(at 123.19 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9385,8 +9933,8 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Switch:CAS-D20X1")
-		(at 69.85 181.61 180)
+		(lib_id "HalfBridge_SiC:CAS-D20X1")
+		(at 95.25 44.45 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9394,7 +9942,7 @@
 		(dnp no)
 		(uuid "b3b04596-44ce-4e90-826f-01bb05cf3517")
 		(property "Reference" "SW4"
-			(at 69.85 190.5 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9950,7 @@
 			)
 		)
 		(property "Value" "CAS-D20X1"
-			(at 69.85 187.96 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9958,7 @@
 			)
 		)
 		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 69.85 181.61 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9967,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 69.85 181.61 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 181.61 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +10012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(lib_id "HalfBridge_SiC:SW_Nidec_CAS-120A1")
 		(at 34.29 172.72 0)
 		(mirror y)
 		(unit 1)
@@ -9535,7 +10083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "HalfBridge_SiC:LED")
 		(at 74.93 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9604,8 +10152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 170.18 0)
+		(lib_id "HalfBridge_SiC:R")
+		(at 119.38 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9614,7 +10162,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9096488-aeea-4b8f-9aff-e131269a69b9")
 		(property "Reference" "R7"
-			(at 96.52 168.9099 0)
+			(at 121.92 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +10171,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 96.52 171.4499 0)
+			(at 121.92 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +10180,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.202 170.18 90)
+			(at 117.602 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +10189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 170.18 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +10198,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 170.18 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +10222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 203.2 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9744,7 +10292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 142.24 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9814,7 +10362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(lib_id "HalfBridge_SiC:SW_Nidec_CAS-120A1")
 		(at 34.29 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -9885,7 +10433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 95.25 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9953,7 +10501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 231.14 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10023,7 +10571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 59.69 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10091,7 +10639,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 193.04 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10159,7 +10707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Switch:CAS-D20X1")
+		(lib_id "HalfBridge_SiC:CAS-D20X1")
 		(at 125.73 190.5 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -10239,7 +10787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 214.63 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10309,7 +10857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 236.22 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10376,7 +10924,8 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Converter_DCDC:RKZ-052005D")
+		(lib_name "RKZ-052005D_1_1")
+		(lib_id "HalfBridge_SiC:RKZ-052005D_1")
 		(at 172.72 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10462,7 +11011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 212.09 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10532,7 +11081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 203.2 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10602,7 +11151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G86")
+		(lib_id "HalfBridge_SiC:74AHC1G86")
 		(at 55.88 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10679,7 +11228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "HalfBridge_SiC:L")
 		(at 151.13 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10747,7 +11296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Switch:CAS-D20X1")
+		(lib_id "HalfBridge_SiC:CAS-D20X1")
 		(at 134.62 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10827,7 +11376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10895,8 +11444,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 82.55 170.18 90)
+		(lib_id "HalfBridge_SiC:LED")
+		(at 107.95 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10905,7 +11454,7 @@
 		(fields_autoplaced yes)
 		(uuid "e49e9200-5c5f-47e9-b77f-acc64c420fa5")
 		(property "Reference" "D4"
-			(at 86.36 170.4974 90)
+			(at 111.76 33.3374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +11463,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 86.36 173.0374 90)
+			(at 111.76 35.8774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +11472,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 82.55 170.18 0)
+			(at 107.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,7 +11481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 170.18 0)
+			(at 107.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +11490,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 82.55 170.18 0)
+			(at 107.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +11514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "HalfBridge_SiC:C")
 		(at 129.54 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11035,7 +11584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "HalfBridge_SiC:TestPoint")
 		(at 240.03 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11100,7 +11649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11168,7 +11717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Driver_FET:NCV51563")
+		(lib_id "HalfBridge_SiC:NCV51563")
 		(at 172.72 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11278,7 +11827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 146.05 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11348,7 +11897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "HalfBridge_SiC:R")
 		(at 95.25 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)

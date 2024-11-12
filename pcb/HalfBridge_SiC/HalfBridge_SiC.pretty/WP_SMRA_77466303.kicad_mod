@@ -1,0 +1,213 @@
+(footprint "WP_SMRA_77466303"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Screw Connector Right Angle M3 WP-SMRA REDCUBE")
+	(tags "Connector, Wuerth, Screw")
+	(property "Reference" "REF**"
+		(at 0 -4 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee6e0462-2c18-45f8-bc0e-6d065521634f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05d7122d-0597-4d04-a85a-9002d00cad8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "My_Connector:WP_SMRA_77466303"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74b63724-8224-4788-b42e-06682bf3a00c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "084a9df9-74ab-4195-bf12-ed3d250137f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "397905af-4e6c-428b-b787-bc8773cb335f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3.5 1.5)
+		(end 3.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f53b4206-f0fe-413c-be8a-cb4a2fe10678")
+	)
+	(fp_line
+		(start 3.5 -2.8)
+		(end 3.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0846abd1-1ad2-4173-b3d8-43611ba681dc")
+	)
+	(fp_line
+		(start -3.5 2.8)
+		(end 3.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70f708fd-04b7-42b1-aaa6-1ee9d623b03c")
+	)
+	(fp_line
+		(start -3.5 1.5)
+		(end -3.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53a1b3df-c621-45b0-9687-cea85b0606f3")
+	)
+	(fp_line
+		(start -3.5 -2.8)
+		(end 3.5 -2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8bbbec-aa24-48f2-9f23-37ee0c381d04")
+	)
+	(fp_line
+		(start -3.5 -2.8)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "debad3d8-b3b6-46cc-a2be-d9f1b296d067")
+	)
+	(fp_rect
+		(start -3.5 -2.8)
+		(end 3.5 2.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2ea396c1-6a19-477a-8609-b954e410aee9")
+	)
+	(fp_rect
+		(start -3.7 -3)
+		(end 3.7 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "49039e64-0948-4c60-9c0b-ed300e8d804e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e39e7079-bbfa-472f-afac-f338e1535709")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 -1.35 180)
+		(size 2.95 2.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.125)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "ad6dadd5-e02e-4b91-a530-bef2335550be")
+	)
+	(pad "1" smd rect
+		(at -1.6 1.35 180)
+		(size 2.95 2.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.125)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "4c553754-6b90-4e28-906c-0f03ec9742c1")
+	)
+	(pad "1" smd rect
+		(at 1.6 -1.35 180)
+		(size 2.95 2.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.125)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "70a85f7a-07f7-4713-9e98-a4118ba08121")
+	)
+	(pad "1" smd rect
+		(at 1.6 1.35 180)
+		(size 2.95 2.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.125)
+		(solder_paste_margin -0.2)
+		(thermal_bridge_angle 45)
+		(uuid "940c11aa-c75c-460a-8b58-add0fd6548f7")
+	)
+	(model "${KIPRJMOD}/3dmodels/7466303.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

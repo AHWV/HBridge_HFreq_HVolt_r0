@@ -5,4 +5,5 @@
   (lib (name "My_Converter_DCDC")(type "KiCad")(uri "${KIPRJMOD}/My_Converter_DCDC.kicad_sym")(options "")(descr ""))
   (lib (name "My_Interface_UART")(type "KiCad")(uri "${KIPRJMOD}/My_Interface_UART.kicad_sym")(options "")(descr ""))
   (lib (name "My_Connector")(type "KiCad")(uri "${KIPRJMOD}/My_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "HalfBridge_SiC")(type "KiCad")(uri "${KIPRJMOD}/HalfBridge_SiC.kicad_sym")(options "")(descr ""))
 )
