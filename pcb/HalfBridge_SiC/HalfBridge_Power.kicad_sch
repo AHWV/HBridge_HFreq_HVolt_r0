@@ -7,6 +7,8 @@
 	(title_block
 		(title "Power stage (Half Bridge)")
 		(rev "1")
+		(company "Dr.-Ing. Alan H. Wilson Veas")
+		(comment 1 "AHWV")
 	)
 	(lib_symbols
 		(symbol "HalfBridge_SiC:C"

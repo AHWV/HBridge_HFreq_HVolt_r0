@@ -8,6 +8,8 @@
 		(title "Dual Gate Diver")
 		(date "2024-10-30")
 		(rev "1")
+		(company "Dr.-Ing. Alan H. Wilson Veas")
+		(comment 1 "AHWV")
 	)
 	(lib_symbols
 		(symbol "HalfBridge_SiC:74AHC1G86"
