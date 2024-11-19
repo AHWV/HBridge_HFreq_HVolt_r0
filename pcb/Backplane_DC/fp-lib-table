@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "My_Connector")(type "KiCad")(uri "E:/Repos/GitHub/HBridge_HFreq_HVolt_r0/pcb/HalfBridge_SiC/My_Connector.pretty")(options "")(descr ""))
+  (lib (name "My_Connector")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/My_Connector.pretty")(options "")(descr ""))
 )

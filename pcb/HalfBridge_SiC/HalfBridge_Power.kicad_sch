@@ -1636,7 +1636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Heatsink:Heatsink_Fischer_SK687_50"
+		(property "Footprint" ""
 			(at 255.5748 36.83 0)
 			(effects
 				(font
@@ -1663,8 +1663,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SK 687 50 SA"
-			(at 256.54 39.37 0)
+		(property "Part #" "SK 687 50 SA"
+			(at 255.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 177.4952 54.61 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 223.012 73.66 90)
 			(effects
 				(font
@@ -1855,7 +1855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 210.312 73.66 90)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 190.1952 54.61 0)
 			(effects
 				(font
@@ -2083,7 +2083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 166.0652 54.61 0)
 			(effects
 				(font
@@ -2153,7 +2153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Capacitor_THT:C_Rect_L42.0mm_W20.0mm_PW37.50mm_PL10.2mm_C4AU"
+		(property "Footprint" ""
 			(at 139.3952 54.61 0)
 			(effects
 				(font
@@ -2172,15 +2172,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "C4AUNBW5100M3FJ"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -2232,7 +2223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal"
+		(property "Footprint" ""
 			(at 108.712 60.96 90)
 			(effects
 				(font
@@ -2302,7 +2293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 202.8952 54.61 0)
 			(effects
 				(font
@@ -2381,7 +2372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal"
+		(property "Footprint" ""
 			(at 108.712 41.91 90)
 			(effects
 				(font

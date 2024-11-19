@@ -5,6 +5,174 @@
 	(uuid "1d08233b-efae-4958-9b81-9924f8f7b590")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
@@ -163,49 +331,48 @@
 				)
 			)
 		)
-		(symbol "My_Connector:594750-E"
+		(symbol "Diode_Bridge:DNA40U2200GU"
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 16.51 0)
+			(property "Reference" "D"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "413638-E"
-				(at 8.89 13.97 0)
+			(property "Value" "DNA40U2200GU"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "My_Connector:TE_594750-E"
-				(at 21.59 -94.92 0)
+			(property "Footprint" "Diode_THT:Diode_Bridge_IXYS_GUFP"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
-				(at 21.59 -194.92 0)
+			(property "Datasheet" "https://ixapps.ixys.com/Datasheet/DNA40U2200GU.pdf"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Receptacle, Board-to-Board, 15 Position, 5.08 mm [.2 in] Centerline, Printed Circuit Board, 2 Row, Vertical, Standard DIN Size, Eurocard Connectors"
+			(property "Description" "690V Vrms, 40A If, GUFP(X025B)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -214,77 +381,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "13"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "413638-E"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DIN 41612 H15"
+			(property "ki_keywords" "Three-Phase Bridge Rectifier"
 				(at 0 0 0)
 				(effects
 					(font
@@ -293,227 +390,490 @@
 					(hide yes)
 				)
 			)
-			(symbol "594750-E_1_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -13.97)
+			(property "ki_fp_filters" "Diode*Bridge*IXYS*GUFP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DNA40U2200GU_0_1"
+				(circle
+					(center -5.08 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 10.16) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 -10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DNA40U2200GU_1_1"
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -6.35 -3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -6.35 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy -1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 6.35) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -6.35) (xy -6.35 -6.35) (xy -5.08 -3.81) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -6.35 3.81) (xy -5.08 6.35) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy -1.27 -6.35) (xy 0 -3.81) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -1.27 3.81) (xy 0 6.35) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -6.35) (xy 3.81 -6.35) (xy 5.08 -3.81) (xy 6.35 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 3.81 3.81) (xy 5.08 6.35) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D10"
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "D30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -11.43 0)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -11.43 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "Z12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Z12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "Z16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Z16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "Z20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Z20"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -522,34 +882,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "Z24"
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Z24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "Z28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Z28"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -558,34 +900,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "Z32"
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Z32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "Z4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "Z4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -594,16 +918,136 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Z8"
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Z8"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -614,54 +1058,189 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 148.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6691018e-3f60-4ff3-917b-c045e148768e")
+	)
+	(label "dcp"
+		(at 124.46 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0676236d-b22b-42c6-8c30-c21485be99ce")
+	)
+	(label "dcp"
+		(at 67.31 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24a6cb69-b0cc-4dac-938e-64a0d1e9877f")
+	)
+	(label "dcm"
+		(at 67.31 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3afd7445-42be-48b5-9af6-fba9c45e7ab4")
+	)
+	(label "dcm"
+		(at 92.71 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fda738c-3891-4dbf-81a7-7234e139715e")
+	)
+	(label "pha"
+		(at 67.31 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5122f955-649f-4038-811e-52cceb753e37")
+	)
+	(label "phb"
+		(at 92.71 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54bc68a1-1ab5-4e6d-8303-6c74ac6f56b9")
+	)
+	(label "dcn"
+		(at 124.46 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81d0cdf4-d993-486e-8797-4186fc771920")
+	)
+	(label "dcn"
+		(at 67.31 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96948101-be36-4a21-8729-0761a17618b8")
+	)
+	(label "dcm"
+		(at 148.59 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99443697-5d61-47f0-9c27-9d1a341b03e1")
+	)
+	(label "dcn"
+		(at 148.59 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "999fb3ac-c8a2-4725-84c2-14119e16a78a")
+	)
+	(label "dcp"
+		(at 148.59 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a724a197-7cf2-4549-b058-c45fe176fd68")
+	)
+	(label "dcp"
+		(at 92.71 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3a29427-6841-44f8-8173-3edd0f8efb33")
+	)
+	(label "dcn"
+		(at 92.71 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6a22558-4eb3-4ef8-ab7b-e7fd36e0e9f1")
+	)
 	(symbol
-		(lib_id "My_Connector:594750-E")
-		(at 138.43 67.31 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 60.96 116.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60de16b2-7c89-42c1-aa3f-af5799e89239")
+		(uuid "03ea635f-d855-42a5-92ca-3a6c53980774")
 		(property "Reference" "J1"
-			(at 138.43 49.53 0)
+			(at 58.42 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "413638-E"
-			(at 138.43 52.07 0)
+		(property "Value" "Conn_01x03"
+			(at 58.42 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "My_Connector:TE_594750-E"
-			(at 160.02 162.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
-			(at 160.02 262.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Receptacle, Board-to-Board, 15 Position, 5.08 mm [.2 in] Centerline, Printed Circuit Board, 2 Row, Vertical, Standard DIN Size, Eurocard Connectors"
-			(at 138.43 67.31 0)
+		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_5_3-H-7.5-ZB_1x03_P7.5mm_Horizontal"
+			(at 60.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,126 +1248,32 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "13"
-			(at 160.02 462.23 0)
+		(property "Datasheet" "~"
+			(at 60.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 160.02 562.23 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "413638-E"
-			(at 160.02 662.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "123b1d1e-e21d-4533-a82b-e929faed3893")
 		)
-		(property "Mouser Part Number" ""
-			(at 160.02 762.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "cb8e5542-7120-4561-807d-b729f6264ca0")
 		)
-		(property "Mouser Price/Stock" ""
-			(at 160.02 862.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 160.02 962.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 160.02 1062.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Z28"
-			(uuid "455c2840-2c95-433a-97a8-1816c041edbc")
-		)
-		(pin "Z24"
-			(uuid "fc903412-d301-41eb-8fb8-6985a6da52c4")
-		)
-		(pin "D18"
-			(uuid "73f3391b-1521-48d2-bb9e-2afae6e2cd36")
-		)
-		(pin "Z12"
-			(uuid "c8db3df9-d257-443c-8d69-0e83b816a9e1")
-		)
-		(pin "Z8"
-			(uuid "c41aa840-3360-46a6-9a38-814851498424")
-		)
-		(pin "MH2"
-			(uuid "0c4c645c-c068-4e03-a1c7-e9572068f316")
-		)
-		(pin "Z16"
-			(uuid "4c476915-3e47-4acb-b4cd-e08cd9744a98")
-		)
-		(pin "Z4"
-			(uuid "b600d397-07de-46a5-a141-fe9d0a6a6e27")
-		)
-		(pin "D22"
-			(uuid "ff90ed50-4193-4ccc-9774-3165e2ab6a6a")
-		)
-		(pin "D30"
-			(uuid "1c7b7784-4c71-440d-a54e-375c5c108e3c")
-		)
-		(pin "D26"
-			(uuid "40c4ae07-694a-48d7-b846-df04393d84c7")
-		)
-		(pin "Z32"
-			(uuid "4731a2d1-5e39-4583-bb54-32088016a9fe")
-		)
-		(pin "D10"
-			(uuid "af294fa6-fb24-4ad4-8257-98b9a643cdd9")
-		)
-		(pin "MH1"
-			(uuid "d60810d8-b7d2-4c94-adbb-6ea84e02658d")
-		)
-		(pin "D14"
-			(uuid "3b3a8f82-a043-4e80-92d7-f741e51cf246")
-		)
-		(pin "D6"
-			(uuid "18158884-1f73-412a-a6d6-0446d019db98")
-		)
-		(pin "Z20"
-			(uuid "63827233-d1ac-43a0-aeca-eb53d9dbd704")
+		(pin "3"
+			(uuid "98e2c773-403f-4960-b08f-6fe75d063f2f")
 		)
 		(instances
 			(project ""
@@ -800,17 +1285,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 90.17 78.74 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 64.77 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4d43590-6a5c-4ae6-afa3-c4dc2c9f61cd")
-		(property "Reference" "C1"
-			(at 93.98 76.5809 0)
+		(uuid "39c46772-a38d-4250-ba35-8efc68a23391")
+		(property "Reference" "H7"
+			(at 69.85 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,8 +1303,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 93.98 79.1209 0)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,8 +1312,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn"
-			(at 91.1352 82.55 0)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +1322,486 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 78.74 0)
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "306fdc05-e254-4814-8f95-e6ecf25d3156")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Bridge:DNA40U2200GU")
+		(at 116.84 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee1b7bf-bb79-4256-9b52-737f98b2454f")
+		(property "Reference" "D1"
+			(at 116.2685 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNA40U2200GU"
+			(at 116.2685 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_IXYS_GUFP"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ixapps.ixys.com/Datasheet/DNA40U2200GU.pdf"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "690V Vrms, 40A If, GUFP(X025B)"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17222210-4a2b-4ae1-a393-5fac8ada78ad")
+		)
+		(pin "5"
+			(uuid "7d5407bc-f458-4d32-aed5-0e3ca969f691")
+		)
+		(pin "4"
+			(uuid "932c58a6-c23b-478f-aaab-13686a35d5b6")
+		)
+		(pin "1"
+			(uuid "ba6bceca-c21d-4e25-8174-49bc24bf7cc9")
+		)
+		(pin "2"
+			(uuid "9c286937-f6b9-47d6-a326-331b8f7845fa")
+		)
+		(instances
+			(project ""
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 92.71 57.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c114aac-1edc-45ff-ae39-b5de4cee2b84")
+		(property "Reference" "H6"
+			(at 95.25 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e41f274-999c-4c95-a765-a35d655fcc67")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8693a124-f603-4397-9979-ff86cf187cda")
+		(property "Reference" "H4"
+			(at 95.25 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da3127a-2a23-41eb-a3f1-8f8a84bddd7b")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 57.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba0f80b-750e-4f1f-9f60-82fd5e0129a2")
+		(property "Reference" "H5"
+			(at 69.85 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5614b4ea-f566-49f5-a50f-19cb472ddfdb")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95fd3f2a-b1e4-4f68-b7ae-f2602093c236")
+		(property "Reference" "H3"
+			(at 69.85 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08c86a9-49b6-4660-937c-68440d98e0ef")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 92.71 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "999d9682-b88b-4bd3-ad88-c8d5f54b179e")
+		(property "Reference" "H8"
+			(at 95.25 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e458635b-d973-4346-a05d-bde13bb89f65")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 148.59 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d43590-6a5c-4ae6-afa3-c4dc2c9f61cd")
+		(property "Reference" "C1"
+			(at 152.4 113.4109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 152.4 115.9509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn"
+			(at 149.5552 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +1810,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 90.17 78.74 0)
+			(at 148.59 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +1835,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 90.17 88.9 0)
+		(at 148.59 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -880,7 +1844,7 @@
 		(fields_autoplaced yes)
 		(uuid "c41754ab-1746-46be-bcd1-2df8327f6ed3")
 		(property "Reference" "C2"
-			(at 93.98 86.7409 0)
+			(at 152.4 123.5709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +1853,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 93.98 89.2809 0)
+			(at 152.4 126.1109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +1862,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn"
-			(at 91.1352 92.71 0)
+			(at 149.5552 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 88.9 0)
+			(at 148.59 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +1880,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 90.17 88.9 0)
+			(at 148.59 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,53 +1904,35 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Connector:594750-E")
-		(at 138.43 116.84 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 41.91 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "efd6ae04-1b48-445f-941c-b140fbfd5d60")
-		(property "Reference" "J2"
-			(at 138.43 99.06 0)
+		(uuid "c8914b02-fa81-48ea-b51d-f7c2c5715988")
+		(property "Reference" "H2"
+			(at 69.85 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "413638-E"
-			(at 138.43 101.6 0)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "My_Connector:TE_594750-E"
-			(at 160.02 211.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.erni.com/fileadmin/import/products/assets/DC0002089.PDF"
-			(at 160.02 311.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Receptacle, Board-to-Board, 15 Position, 5.08 mm [.2 in] Centerline, Printed Circuit Board, 2 Row, Vertical, Standard DIN Size, Eurocard Connectors"
-			(at 138.43 116.84 0)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,131 +1940,98 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "13"
-			(at 160.02 511.76 0)
+		(property "Datasheet" "~"
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 160.02 611.76 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "413638-E"
-			(at 160.02 711.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 160.02 811.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 160.02 911.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 160.02 1011.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 160.02 1111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Z28"
-			(uuid "efe1d050-2a77-4ead-9c82-7e2e6761fc9d")
-		)
-		(pin "Z24"
-			(uuid "58a56fa9-ddbf-4e98-9341-dafa32744fa7")
-		)
-		(pin "D18"
-			(uuid "246681a6-1ad5-44d5-9d6c-b340eaad0679")
-		)
-		(pin "Z12"
-			(uuid "15ffadd8-f68e-4af3-aef3-80a383b07fb6")
-		)
-		(pin "Z8"
-			(uuid "a5044c7c-8c88-4d99-bbf0-e74f42381d8c")
-		)
-		(pin "MH2"
-			(uuid "d0010382-8205-4c33-8653-5dba7f25ae22")
-		)
-		(pin "Z16"
-			(uuid "833ae0b5-9c8a-4b3c-8628-cb18c2effbd9")
-		)
-		(pin "Z4"
-			(uuid "9a46e6b3-5344-4f21-ac96-4c51b197adc2")
-		)
-		(pin "D22"
-			(uuid "4557af7d-8a53-4b3d-a38b-0ef53387a229")
-		)
-		(pin "D30"
-			(uuid "731e3ee0-3084-4396-8b9c-13dfc4b3c47c")
-		)
-		(pin "D26"
-			(uuid "3b80f228-43d1-4b61-8836-f068aabfc043")
-		)
-		(pin "Z32"
-			(uuid "8fed6bc0-f4d9-4b7b-91f7-2f13784e29bd")
-		)
-		(pin "D10"
-			(uuid "7c45256a-d56c-4b4a-9543-6bd4c1d71b0e")
-		)
-		(pin "MH1"
-			(uuid "c625662c-46b9-4902-9138-aec0389c0852")
-		)
-		(pin "D14"
-			(uuid "b9227d20-66c4-485b-b491-f4f114c1e213")
-		)
-		(pin "D6"
-			(uuid "2d4c42e2-c68e-4194-850a-362e8e50f913")
-		)
-		(pin "Z20"
-			(uuid "2f8bf8aa-ac81-4ac0-beb4-5597e1db1529")
+		(pin "1"
+			(uuid "f255f798-67fa-4678-ac77-6a47ea1652a9")
 		)
 		(instances
 			(project "Backplane_DC"
 				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
-					(reference "J2")
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 92.71 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff9f53f0-9ebe-4ea7-a2fb-b20789d87282")
+		(property "Reference" "H1"
+			(at 95.25 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aafef598-40f0-47a7-a62f-b565ea8775db")
+		)
+		(instances
+			(project "Backplane_DC"
+				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
+					(reference "H1")
 					(unit 1)
 				)
 			)

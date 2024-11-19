@@ -404,226 +404,6 @@
 				)
 			)
 		)
-		(symbol "HalfBridge_SiC:CAS-D20X1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CAS-D20X1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAS-D20X1_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAS-D20X1_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAS-D20X1_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CAS-D20X1_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HalfBridge_SiC:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
@@ -1095,7 +875,840 @@
 				)
 			)
 		)
-		(symbol "HalfBridge_SiC:NCV51563"
+		(symbol "HalfBridge_SiC:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:RKZ-052005D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RKD-052005D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RKZ-052005D_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RKZ-052005D_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:TL432DBZ"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL432DBZ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 0.762 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL432DBZ_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL432DBZ_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HalfBridge_SiC:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "My_Driver_FET:NCV51563"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1115,7 +1728,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(property "Footprint" "My_Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm_NoPin_12_13"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1142,7 +1755,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Dual Isolated Gate Driver"
+			(property "ki_keywords" "Dual, Isolated, Gate Driver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2146,24 +2759,20 @@
 				)
 			)
 		)
-		(symbol "HalfBridge_SiC:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "My_Switch:CAS-D20X1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "SW"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "CAS-D20X1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2171,390 +2780,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
 				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HalfBridge_SiC:RKZ-052005D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RKD-052005D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RKZ-052005D_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RKZ-052005D_1_1"
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54) hide
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54) hide
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54) hide
-					(name "+VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HalfBridge_SiC:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2563,15 +2789,6 @@
 				)
 			)
 			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2580,7 +2797,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Slide Switches Dual SPDT, ON-ON, slide, SMD terminals, 100mA @ 6V DC, bulk packaging, non-washable without seal tape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2589,7 +2806,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+			(property "ki_keywords" "switch, SPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2598,22 +2815,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
+			(property "ki_fp_filters" "*_Copal_CAS-D2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAS-D20X1_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -2624,7 +2838,32 @@
 				)
 				(circle
 					(center 2.032 -2.54)
-					(radius 0.4572)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2635,7 +2874,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -2645,22 +2884,11 @@
 					)
 				)
 			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "CAS-D20X1_1_1"
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2694,6 +2922,26 @@
 					)
 				)
 				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_2_1"
+				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
@@ -2703,7 +2951,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2711,145 +2959,17 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "HalfBridge_SiC:TL432DBZ"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TL432DBZ"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 0.762 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt Regulator, SOT-23"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode device shunt regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL432DBZ_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TL432DBZ_1_1"
 				(pin passive line
-					(at 0 2.54 270)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "REF"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2858,118 +2978,16 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HalfBridge_SiC:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "1"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6191,6 +6209,17 @@
 		)
 		(uuid "c654b117-fef5-4f0c-a773-ab62d086275f")
 	)
+	(label "inga"
+		(at 81.28 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9be4534-bc96-4d67-bb3a-ca53e55dec6e")
+	)
 	(label "kh"
 		(at 238.76 26.67 180)
 		(fields_autoplaced yes)
@@ -6323,6 +6352,17 @@
 		)
 		(uuid "e213b49f-61f8-4ca0-81c0-4c21a31524e4")
 	)
+	(label "ingb"
+		(at 81.28 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e238a834-4d8d-41ae-ada4-271c7237da16")
+	)
 	(label "gnd"
 		(at 55.88 107.95 0)
 		(fields_autoplaced yes)
@@ -6344,6 +6384,17 @@
 			(justify right bottom)
 		)
 		(uuid "e5be72b4-29bc-489a-a416-fc7313d63828")
+	)
+	(label "gnd"
+		(at 85.09 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6c756d4-3a90-4e3a-8452-77f71b9d0e96")
 	)
 	(label "asgl"
 		(at 264.16 124.46 180)
@@ -6589,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 63.5 147.6248 0)
 			(effects
 				(font
@@ -6657,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 66.548 90)
 			(effects
 				(font
@@ -6727,7 +6778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 235.458 146.05 90)
 			(effects
 				(font
@@ -6796,7 +6847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 205.4352 72.39 0)
 			(effects
 				(font
@@ -6864,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 108.458 90)
 			(effects
 				(font
@@ -6907,6 +6958,73 @@
 		)
 	)
 	(symbol
+		(lib_id "HalfBridge_SiC:TestPoint")
+		(at 81.28 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ce31e2-f410-4b9a-9577-a76356801c30")
+		(property "Reference" "TP22"
+			(at 83.82 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 117.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86f04fa-71c2-4b8a-8dc5-7d83f9665dba")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 193.04 137.16 90)
 		(unit 1)
@@ -6932,7 +7050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 193.04 138.938 90)
 			(effects
 				(font
@@ -7001,7 +7119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 205.4352 80.01 0)
 			(effects
 				(font
@@ -7071,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -7111,6 +7229,86 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 95.25 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e3ec59-e965-4071-9acc-b6fd38ac6c8a")
+		(property "Reference" "SW5"
+			(at 95.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 95.25 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches Dual SPDT, ON-ON, slide, SMD terminals, 100mA @ 6V DC, bulk packaging, non-washable without seal tape"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1aa38b32-5242-46c0-a1ad-2db79c2c4d43")
+		)
+		(pin "2"
+			(uuid "0735064f-665b-41a6-b989-f649d5166201")
+		)
+		(pin "5"
+			(uuid "81d0ced6-2679-4903-b52a-845e42796f00")
+		)
+		(pin "1"
+			(uuid "9d4f3c6b-b8f9-4202-8562-ee6583fc6d0e")
+		)
+		(pin "3"
+			(uuid "ca8ba413-9efd-4711-88b1-5ddaf98e51dd")
+		)
+		(pin "6"
+			(uuid "ac079235-73cb-4e78-aec3-08d4e2ece62f")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:C")
 		(at 59.69 118.11 90)
 		(unit 1)
@@ -7136,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 63.5 117.1448 0)
 			(effects
 				(font
@@ -7206,7 +7404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 206.7052 142.24 0)
 			(effects
 				(font
@@ -7249,6 +7447,125 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Driver_FET:NCV51563")
+		(at 172.72 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1842c717-5b50-4e8c-b946-eec208e606d8")
+		(property "Reference" "U5"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV51563"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm_NoPin_12_13"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp51820-d.pdf"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5 kVRMS Isolated Dual Channel 4.5/9 A Automotive Gate Driver with High Channel-to-Channel spacing"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NCV51563"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "283b27a1-a971-4d88-8d1f-d4d4d46e3e87")
+		)
+		(pin "11"
+			(uuid "edf0afe2-ebea-4734-85cc-cce220c81ac4")
+		)
+		(pin "1"
+			(uuid "8557c210-f8a7-42c9-ae20-7c646fe8a1f2")
+		)
+		(pin "16"
+			(uuid "ca193f44-9d80-464e-91c5-30812814b487")
+		)
+		(pin "10"
+			(uuid "7994ae58-4dcf-4ca6-a9f2-d1803b2a970b")
+		)
+		(pin "6"
+			(uuid "e8967568-59ae-4013-a578-70436fc358f7")
+		)
+		(pin "9"
+			(uuid "188bfc8c-ae10-4e4b-9e6c-6445030d5545")
+		)
+		(pin "13"
+			(uuid "15609006-c9ed-4326-a1cc-9862bb6a8700")
+		)
+		(pin "14"
+			(uuid "7572e0c8-65ce-4fe8-9d43-11f3a0249477")
+		)
+		(pin "2"
+			(uuid "261c98bf-b31c-41c0-a1ba-d36e54d39b87")
+		)
+		(pin "5"
+			(uuid "562939a3-e372-4e69-b7a8-bc3bf37e8898")
+		)
+		(pin "15"
+			(uuid "5131924b-7c83-4b03-aa03-cc4bd6dad4f8")
+		)
+		(pin "8"
+			(uuid "109ed760-6c74-4606-bfa2-30dcc512bafe")
+		)
+		(pin "3"
+			(uuid "dd165c54-c8a1-40a0-933d-8d4dfe069648")
+		)
+		(pin "4"
+			(uuid "48a8c084-2945-40d5-a0a1-825cfa08b56d")
+		)
+		(pin "12"
+			(uuid "f3f59e07-1feb-4201-ae70-a021da607667")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:C")
 		(at 205.74 151.13 0)
 		(unit 1)
@@ -7276,7 +7593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 206.7052 154.94 0)
 			(effects
 				(font
@@ -7344,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" ""
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -7396,6 +7713,86 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 95.25 44.45 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313d71dd-e08c-400c-889f-ded620faa163")
+		(property "Reference" "SW5"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches Dual SPDT, ON-ON, slide, SMD terminals, 100mA @ 6V DC, bulk packaging, non-washable without seal tape"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1aa38b32-5242-46c0-a1ad-2db79c2c4d44")
+		)
+		(pin "2"
+			(uuid "0735064f-665b-41a6-b989-f649d5166202")
+		)
+		(pin "5"
+			(uuid "81d0ced6-2679-4903-b52a-845e42796f01")
+		)
+		(pin "1"
+			(uuid "9d4f3c6b-b8f9-4202-8562-ee6583fc6d0f")
+		)
+		(pin "3"
+			(uuid "ca8ba413-9efd-4711-88b1-5ddaf98e51de")
+		)
+		(pin "6"
+			(uuid "ac079235-73cb-4e78-aec3-08d4e2ece630")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "SW5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:C")
 		(at 99.06 132.08 0)
 		(unit 1)
@@ -7423,7 +7820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 100.0252 135.89 0)
 			(effects
 				(font
@@ -7491,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 84.328 90)
 			(effects
 				(font
@@ -7561,7 +7958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 73.152 111.76 90)
 			(effects
 				(font
@@ -7629,7 +8026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 57.658 90)
 			(effects
 				(font
@@ -7697,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" ""
 			(at 260.35 115.57 0)
 			(effects
 				(font
@@ -7767,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 205.4352 118.11 0)
 			(effects
 				(font
@@ -7837,7 +8234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 74.422 142.24 90)
 			(effects
 				(font
@@ -7907,7 +8304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 232.918 22.86 90)
 			(effects
 				(font
@@ -7976,7 +8373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 235.458 153.67 90)
 			(effects
 				(font
@@ -8046,7 +8443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 235.458 138.43 90)
 			(effects
 				(font
@@ -8114,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 75.438 90)
 			(effects
 				(font
@@ -8184,7 +8581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 219.4052 107.95 0)
 			(effects
 				(font
@@ -8252,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" ""
 			(at 260.35 64.77 0)
 			(effects
 				(font
@@ -8295,85 +8692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HalfBridge_SiC:CAS-D20X1")
-		(at 95.25 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54aa6c0c-46cc-48c5-a978-7837506f62d4")
-		(property "Reference" "SW4"
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-D20X1"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 95.25 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 95.25 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ac")
-		)
-		(pin "2"
-			(uuid "8ac27926-ddfb-4f8f-8f7d-b53d44fdcd6b")
-		)
-		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f47610701f")
-		)
-		(pin "1"
-			(uuid "dc1e538d-b0b5-42eb-9a69-e1322d8541e9")
-		)
-		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43982")
-		)
-		(pin "3"
-			(uuid "1b29f2b3-bba8-492e-9985-fa470e22c7cd")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 107.95 43.18 0)
 		(unit 1)
@@ -8401,7 +8719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 106.172 43.18 90)
 			(effects
 				(font
@@ -8469,7 +8787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 240.03 85.09 0)
 			(effects
 				(font
@@ -8534,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -8679,7 +8997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 76.2 132.08 0)
 			(effects
 				(font
@@ -8749,7 +9067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 205.4352 107.95 0)
 			(effects
 				(font
@@ -8819,7 +9137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 219.4052 80.01 0)
 			(effects
 				(font
@@ -8889,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 100.0252 105.41 0)
 			(effects
 				(font
@@ -8959,7 +9277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 115.2652 87.63 0)
 			(effects
 				(font
@@ -9103,7 +9421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 232.918 38.1 90)
 			(effects
 				(font
@@ -9258,7 +9576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 219.4052 72.39 0)
 			(effects
 				(font
@@ -9301,6 +9619,73 @@
 		)
 	)
 	(symbol
+		(lib_id "HalfBridge_SiC:TestPoint")
+		(at 85.09 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8febcdd8-d242-474c-9058-a08dd7d5f0a8")
+		(property "Reference" "TP23"
+			(at 87.63 160.7819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.63 163.3219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d319e2-d316-4c0e-b304-c302ddc6f27c")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:C")
 		(at 115.57 167.64 0)
 		(unit 1)
@@ -9327,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 116.5352 171.45 0)
 			(effects
 				(font
@@ -9370,6 +9755,86 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 134.62 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95a80b90-baaf-42b2-9dc0-25c0e5d03780")
+		(property "Reference" "SW4"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches Dual SPDT, ON-ON, slide, SMD terminals, 100mA @ 6V DC, bulk packaging, non-washable without seal tape"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0a78cec7-af35-4010-aaaf-95074f90ce95")
+		)
+		(pin "6"
+			(uuid "939034e2-2a6f-4981-a631-b30e183fc140")
+		)
+		(pin "1"
+			(uuid "df1793db-de8b-49bf-a3fe-27d7f77d87f1")
+		)
+		(pin "2"
+			(uuid "c413edb4-0897-4c68-a116-1437336cd395")
+		)
+		(pin "5"
+			(uuid "047156a1-53bf-44de-bf3c-6770f8c8885c")
+		)
+		(pin "3"
+			(uuid "ea645368-c2c9-405d-b3df-6c4d6b916001")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 115.57 90)
 		(unit 1)
@@ -9395,7 +9860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 117.348 90)
 			(effects
 				(font
@@ -9465,7 +9930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 147.0152 142.24 0)
 			(effects
 				(font
@@ -9535,7 +10000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 219.4052 118.11 0)
 			(effects
 				(font
@@ -9605,7 +10070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 143.2052 99.06 0)
 			(effects
 				(font
@@ -9746,7 +10211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 145.7452 43.18 0)
 			(effects
 				(font
@@ -9814,7 +10279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" ""
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -9866,6 +10331,86 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 125.73 190.5 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a862a8ff-c4b7-42cd-8a9f-f5155532f1bc")
+		(property "Reference" "SW4"
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 125.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 125.73 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches Dual SPDT, ON-ON, slide, SMD terminals, 100mA @ 6V DC, bulk packaging, non-washable without seal tape"
+			(at 125.73 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0a78cec7-af35-4010-aaaf-95074f90ce96")
+		)
+		(pin "6"
+			(uuid "939034e2-2a6f-4981-a631-b30e183fc141")
+		)
+		(pin "1"
+			(uuid "df1793db-de8b-49bf-a3fe-27d7f77d87f2")
+		)
+		(pin "2"
+			(uuid "c413edb4-0897-4c68-a116-1437336cd396")
+		)
+		(pin "5"
+			(uuid "047156a1-53bf-44de-bf3c-6770f8c8885d")
+		)
+		(pin "3"
+			(uuid "ea645368-c2c9-405d-b3df-6c4d6b916002")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "SW4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:L")
 		(at 123.19 80.01 90)
 		(unit 1)
@@ -9891,7 +10436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 123.19 80.01 0)
 			(effects
 				(font
@@ -9929,85 +10474,6 @@
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
 					(reference "L1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HalfBridge_SiC:CAS-D20X1")
-		(at 95.25 44.45 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3b04596-44ce-4e90-826f-01bb05cf3517")
-		(property "Reference" "SW4"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-D20X1"
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 95.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 95.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ad")
-		)
-		(pin "2"
-			(uuid "8e277a1e-fea5-4b4f-8d66-7368142b9322")
-		)
-		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f476107020")
-		)
-		(pin "1"
-			(uuid "0a67d4d0-d1e9-4daf-a4b6-475800dfc144")
-		)
-		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43983")
-		)
-		(pin "3"
-			(uuid "eb49fdc2-ed3f-4377-9343-6c6cc74495e4")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "SW4")
-					(unit 2)
 				)
 			)
 		)
@@ -10110,7 +10576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 74.93 101.6 0)
 			(effects
 				(font
@@ -10180,7 +10646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 117.602 33.02 90)
 			(effects
 				(font
@@ -10250,7 +10716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 204.1652 26.67 0)
 			(effects
 				(font
@@ -10320,7 +10786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 143.2052 87.63 0)
 			(effects
 				(font
@@ -10459,7 +10925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 95.25 99.568 90)
 			(effects
 				(font
@@ -10529,7 +10995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 232.918 30.48 90)
 			(effects
 				(font
@@ -10597,7 +11063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 63.5 86.6648 0)
 			(effects
 				(font
@@ -10665,7 +11131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 193.04 39.878 90)
 			(effects
 				(font
@@ -10708,86 +11174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HalfBridge_SiC:CAS-D20X1")
-		(at 125.73 190.5 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c962c95f-6ea4-41d7-901c-caf2b519a84e")
-		(property "Reference" "SW5"
-			(at 125.73 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-D20X1"
-			(at 125.73 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ab")
-		)
-		(pin "2"
-			(uuid "6de539dc-37d0-4fe4-90d2-d6eb56cc3f63")
-		)
-		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f47610701e")
-		)
-		(pin "1"
-			(uuid "02bf7d23-7476-47c8-892c-8d984f2b82cb")
-		)
-		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43981")
-		)
-		(pin "3"
-			(uuid "a78ec341-5850-4099-8f7d-471f2a803582")
-		)
-		(instances
-			(project ""
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "SW5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HalfBridge_SiC:C")
 		(at 214.63 156.21 0)
 		(unit 1)
@@ -10815,7 +11201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 215.5952 160.02 0)
 			(effects
 				(font
@@ -10885,7 +11271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 241.3 82.55 0)
 			(effects
 				(font
@@ -11039,7 +11425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 213.0552 44.45 0)
 			(effects
 				(font
@@ -11109,7 +11495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 204.1652 39.37 0)
 			(effects
 				(font
@@ -11177,7 +11563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" ""
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -11254,7 +11640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 151.13 134.62 0)
 			(effects
 				(font
@@ -11297,86 +11683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HalfBridge_SiC:CAS-D20X1")
-		(at 134.62 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d70ea16a-c938-485f-b6dc-b27eabfdde51")
-		(property "Reference" "SW5"
-			(at 134.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-D20X1"
-			(at 134.62 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20B1"
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ae")
-		)
-		(pin "2"
-			(uuid "6de539dc-37d0-4fe4-90d2-d6eb56cc3f64")
-		)
-		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f476107021")
-		)
-		(pin "1"
-			(uuid "02bf7d23-7476-47c8-892c-8d984f2b82cc")
-		)
-		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43984")
-		)
-		(pin "3"
-			(uuid "a78ec341-5850-4099-8f7d-471f2a803583")
-		)
-		(instances
-			(project ""
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 97.79 90)
 		(unit 1)
@@ -11402,7 +11708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 99.568 90)
 			(effects
 				(font
@@ -11472,7 +11778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 107.95 33.02 0)
 			(effects
 				(font
@@ -11542,7 +11848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 130.5052 87.63 0)
 			(effects
 				(font
@@ -11610,7 +11916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -11650,6 +11956,73 @@
 		)
 	)
 	(symbol
+		(lib_id "HalfBridge_SiC:TestPoint")
+		(at 81.28 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed5b3832-1a19-4099-a513-86d4d622545f")
+		(property "Reference" "TP21"
+			(at 83.82 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f693680-d727-4bf1-a9f9-7166e3fd77e9")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 267.97 124.46 90)
 		(unit 1)
@@ -11675,7 +12048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 267.97 126.238 90)
 			(effects
 				(font
@@ -11718,116 +12091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HalfBridge_SiC:NCV51563")
-		(at 172.72 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f35d4c1a-c641-4515-a5dc-66fd0e22dfbc")
-		(property "Reference" "U5"
-			(at 172.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCV51563"
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 172.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp51820-d.pdf"
-			(at 172.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5 kVRMS Isolated Dual Channel 4.5/9 A Automotive Gate Driver with High Channel-to-Channel spacing"
-			(at 172.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "64c25b76-2aac-42dd-9738-9c1ebd417833")
-		)
-		(pin "14"
-			(uuid "3225c9d0-a3e5-4df4-a23a-e15377d7fa76")
-		)
-		(pin "1"
-			(uuid "11c1c42a-c7d0-4023-838c-218d613f7c62")
-		)
-		(pin "13"
-			(uuid "a58d0569-d8f2-484f-ae3e-2b430a1967fd")
-		)
-		(pin "2"
-			(uuid "c713a03d-6543-408b-97b7-addac3399530")
-		)
-		(pin "11"
-			(uuid "a93555d6-7bd5-4fb8-ac3b-2fa91b4d8d97")
-		)
-		(pin "15"
-			(uuid "54eb654c-9455-43d0-8904-a0fbaa2af856")
-		)
-		(pin "5"
-			(uuid "595cdbfb-825c-4f4b-8292-1f6d0e24dbf4")
-		)
-		(pin "9"
-			(uuid "577715d4-bbe4-4901-81a3-03af673b5a7a")
-		)
-		(pin "16"
-			(uuid "fa7c9f39-fcc8-4099-89a6-ff800db93bcc")
-		)
-		(pin "6"
-			(uuid "61e764bf-009d-422f-961e-0980fbdbcca8")
-		)
-		(pin "8"
-			(uuid "095d936b-5843-48f6-8994-014c9faec881")
-		)
-		(pin "12"
-			(uuid "9274888a-14bf-422f-8ff8-ac1681330e72")
-		)
-		(pin "7"
-			(uuid "e0109ca5-4050-45ed-b432-c2a257318017")
-		)
-		(pin "3"
-			(uuid "180e8032-fc4f-4f48-b353-88e119efc3bd")
-		)
-		(pin "4"
-			(uuid "1c0edb64-4dd7-4b3f-ba9e-65b1fc557003")
-		)
-		(instances
-			(project ""
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 146.05 168.91 180)
 		(unit 1)
@@ -11855,7 +12118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 147.828 168.91 90)
 			(effects
 				(font
@@ -11923,7 +12186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 95.25 130.048 90)
 			(effects
 				(font

@@ -1,0 +1,47 @@
+### Missing 3D models - created on 2024-11-18 21:07
+### Printed by checking_3D_models plugin
+Board file: E:\Repos\GitHub\HBridge_HFreq_HVolt_r0\pcb\HalfBridge_SiC\HalfBridge_SiC.kicad_pcb
+3D missing models written to:
+E:\Repos\GitHub\HBridge_HFreq_HVolt_r0\pcb\HalfBridge_SiC\HalfBridge_SiC_missing3Dmodels.txt
+-------
+('C1', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\C4AUNBW5100M3FJ.step')
+('SW5', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\CAS-D20B1.stp')
+('SW4', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\CAS-D20B1.stp')
+('HS1', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\SK 687 50 SK.stp')
+('TP23', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP22', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP21', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('J13', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\7466303.stp')
+('J14', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\7466303.stp')
+('J15', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\7466303.stp')
+('J12', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\7466303.stp')
+('TP8', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP7', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP18', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP17', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP1', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP5', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('C5', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('TP2', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('C3', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('SW3', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Button_Switch_SMD.3dshapes\\Nidec_Copal_CAS-120A.wrl')
+('TP4', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('C4', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('TP19', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP9', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('C2', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('TP10', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP3', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('TP6', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('SW2', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Button_Switch_SMD.3dshapes\\Nidec_Copal_CAS-120A.wrl')
+('SW1', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\Button_Switch_SMD.3dshapes\\Nidec_Copal_CAS-120A.wrl')
+('TP20', 'C:\\Program Files\\KiCad\\8.0\\share\\kicad\\3dmodels\\TestPoint.3dshapes\\TestPoint_Keystone_5015_Micro-Minature.wrl')
+('J6', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\T1M-02-F-SH-L.stp')
+('J7', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\T1M-02-F-SH-L.stp')
+('U6', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\RKZ_xx2005D.step')
+('U4', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\RKZ_xx2005D.step')
+('J8', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\T1M-02-F-SH-L.stp')
+('J2', 'E:\\Repos\\GitHub\\HBridge_HFreq_HVolt_r0\\pcb\\HalfBridge_SiC\\3dmodels\\c-413638-e-c-3d.stp')
+-------
+NUM of 3D missing models:38
+checked extensions ['.stp', '.step', '.stpZ']

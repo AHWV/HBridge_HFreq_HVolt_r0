@@ -705,7 +705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -772,7 +772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -839,7 +839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 71.12 125.73 0)
 			(effects
 				(font
@@ -906,7 +906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -946,6 +946,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2955ccf0-7eee-4f4d-9cbc-b46bb7bf2852")
+		(property "Reference" "H3"
+			(at 73.66 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 73.66 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/c9be4e5e-b12a-4beb-8fd4-318e3bf3d480"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 64.77 86.36 0)
 		(unit 1)
@@ -973,7 +1037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -1013,6 +1077,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3589f8e3-9305-47d4-a1a1-8dd36e76808e")
+		(property "Reference" "H2"
+			(at 93.98 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 93.98 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/c9be4e5e-b12a-4beb-8fd4-318e3bf3d480"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 80.01 113.03 0)
 		(unit 1)
@@ -1040,7 +1168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -1107,7 +1235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 69.85 76.2 0)
 			(effects
 				(font
@@ -1148,16 +1276,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 67.31 46.99 0)
+		(at 91.44 38.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72d39b82-0461-4f7f-b3f0-1515f5dba8a3")
-		(property "Reference" "H1"
-			(at 69.85 45.7199 0)
+		(uuid "7fca7202-ce28-4ca8-8ce3-72911902e682")
+		(property "Reference" "H4"
+			(at 93.98 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1294,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 69.85 48.2599 0)
+			(at 93.98 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,8 +1302,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 67.31 46.99 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 91.44 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 46.99 0)
+			(at 91.44 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1321,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 67.31 46.99 0)
+			(at 91.44 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,9 +1330,9 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/c9be4e5e-b12a-4beb-8fd4-318e3bf3d480"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1238,7 +1366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 85.09 100.33 0)
 			(effects
 				(font
@@ -1278,6 +1406,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a53d1856-190e-4b92-9034-e68a03f51eff")
+		(property "Reference" "H1"
+			(at 73.66 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 73.66 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/c9be4e5e-b12a-4beb-8fd4-318e3bf3d480"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HalfBridge_SiC:R")
 		(at 90.17 85.09 90)
 		(unit 1)
@@ -1303,7 +1495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_4020_10251Metric_Pad1.65x5.30mm_HandSolder"
+		(property "Footprint" ""
 			(at 90.17 86.868 90)
 			(effects
 				(font
@@ -1373,7 +1565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+		(property "Footprint" ""
 			(at 85.09 125.73 0)
 			(effects
 				(font
@@ -1438,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 82.55 80.01 0)
 			(effects
 				(font
@@ -1503,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_4020_10251Metric_Pad1.65x5.30mm_HandSolder"
+		(property "Footprint" ""
 			(at 90.17 77.978 90)
 			(effects
 				(font
