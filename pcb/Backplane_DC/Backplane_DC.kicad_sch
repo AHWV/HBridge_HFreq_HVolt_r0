@@ -5,22 +5,22 @@
 	(uuid "1d08233b-efae-4958-9b81-9924f8f7b590")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -107,8 +118,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -118,7 +140,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -136,7 +158,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -154,7 +176,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -164,6 +186,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 148.59 121.92)
+			(xy 124.46 90.17) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1068,8 +1126,30 @@
 		)
 		(uuid "6691018e-3f60-4ff3-917b-c045e148768e")
 	)
+	(label "l1"
+		(at 82.55 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03cc8950-3211-494a-b265-deefda90d5e4")
+	)
+	(label "dcn"
+		(at 58.42 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04efa76f-18d4-4884-be1c-844a9d66dc4a")
+	)
 	(label "dcp"
-		(at 124.46 110.49 0)
+		(at 100.33 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1078,6 +1158,17 @@
 			(justify left bottom)
 		)
 		(uuid "0676236d-b22b-42c6-8c30-c21485be99ce")
+	)
+	(label "l3"
+		(at 82.55 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "170d8ee1-0610-4f56-852e-a8cf22974323")
 	)
 	(label "dcp"
 		(at 67.31 52.07 0)
@@ -1112,6 +1203,17 @@
 		)
 		(uuid "3fda738c-3891-4dbf-81a7-7234e139715e")
 	)
+	(label "dcp"
+		(at 58.42 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "462d67b8-04d8-4616-9a52-038ffcfe374a")
+	)
 	(label "pha"
 		(at 67.31 44.45 0)
 		(fields_autoplaced yes)
@@ -1134,8 +1236,41 @@
 		)
 		(uuid "54bc68a1-1ab5-4e6d-8303-6c74ac6f56b9")
 	)
+	(label "l1"
+		(at 58.42 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb1316c-ae8b-417f-b056-26f20a621eb7")
+	)
+	(label "l2"
+		(at 82.55 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "680a3784-4f9c-461c-9616-cdcb22069a45")
+	)
+	(label "l2"
+		(at 58.42 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c521234-2675-44e2-a246-36713229b53b")
+	)
 	(label "dcn"
-		(at 124.46 130.81 0)
+		(at 100.33 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1144,6 +1279,17 @@
 			(justify left bottom)
 		)
 		(uuid "81d0cdf4-d993-486e-8797-4186fc771920")
+	)
+	(label "l3"
+		(at 58.42 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a9381df-0d58-4694-a7fe-3c7cae076e53")
 	)
 	(label "dcn"
 		(at 67.31 67.31 0)
@@ -1157,7 +1303,7 @@
 		(uuid "96948101-be36-4a21-8729-0761a17618b8")
 	)
 	(label "dcm"
-		(at 148.59 120.65 0)
+		(at 124.46 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1168,7 +1314,7 @@
 		(uuid "99443697-5d61-47f0-9c27-9d1a341b03e1")
 	)
 	(label "dcn"
-		(at 148.59 129.54 0)
+		(at 124.46 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1179,7 +1325,7 @@
 		(uuid "999fb3ac-c8a2-4725-84c2-14119e16a78a")
 	)
 	(label "dcp"
-		(at 148.59 111.76 0)
+		(at 124.46 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1212,17 +1358,17 @@
 		(uuid "c6a22558-4eb3-4ef8-ab7b-e7fd36e0e9f1")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 60.96 116.84 0)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 53.34 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03ea635f-d855-42a5-92ca-3a6c53980774")
-		(property "Reference" "J1"
-			(at 58.42 115.5699 0)
+		(uuid "0a448680-2db1-440a-9de4-2e3ab5a1adba")
+		(property "Reference" "J2"
+			(at 50.8 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,8 +1376,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 58.42 118.1099 0)
+		(property "Value" "Conn_01x05"
+			(at 50.8 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,8 +1385,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_5_3-H-7.5-ZB_1x03_P7.5mm_Horizontal"
-			(at 60.96 116.84 0)
+		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_5_5-H-7.5-ZB_1x05_P7.5mm_Horizontal"
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 116.84 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,28 +1403,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 116.84 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "123b1d1e-e21d-4533-a82b-e929faed3893")
 		)
 		(pin "1"
-			(uuid "cb8e5542-7120-4561-807d-b729f6264ca0")
+			(uuid "90e07566-d935-4bec-bbc3-4dbf08605f35")
+		)
+		(pin "2"
+			(uuid "314b5b83-f7f6-4dc5-8580-c06231eb81b1")
+		)
+		(pin "4"
+			(uuid "8bc465d0-7ad9-465c-87d7-ca0018ea3511")
 		)
 		(pin "3"
-			(uuid "98e2c773-403f-4960-b08f-6fe75d063f2f")
+			(uuid "34d75a16-3d9f-4083-a4ea-fc0299fc7d72")
+		)
+		(pin "5"
+			(uuid "f184f0de-164c-4cab-b400-86457600b1bd")
 		)
 		(instances
 			(project ""
 				(path "/1d08233b-efae-4958-9b81-9924f8f7b590"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1353,7 +1505,7 @@
 	)
 	(symbol
 		(lib_id "Diode_Bridge:DNA40U2200GU")
-		(at 116.84 120.65 0)
+		(at 92.71 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1362,7 +1514,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee1b7bf-bb79-4256-9b52-737f98b2454f")
 		(property "Reference" "D1"
-			(at 116.2685 105.41 0)
+			(at 92.1385 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1522,7 @@
 			)
 		)
 		(property "Value" "DNA40U2200GU"
-			(at 116.2685 107.95 0)
+			(at 92.1385 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1530,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:Diode_Bridge_IXYS_GUFP"
-			(at 116.84 135.89 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1539,7 @@
 			)
 		)
 		(property "Datasheet" "https://ixapps.ixys.com/Datasheet/DNA40U2200GU.pdf"
-			(at 116.84 102.87 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1548,7 @@
 			)
 		)
 		(property "Description" "690V Vrms, 40A If, GUFP(X025B)"
-			(at 116.84 120.65 0)
+			(at 92.71 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 148.59 115.57 0)
+		(at 124.46 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1774,7 +1926,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d43590-6a5c-4ae6-afa3-c4dc2c9f61cd")
 		(property "Reference" "C1"
-			(at 152.4 113.4109 0)
+			(at 128.27 84.2009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1935,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 152.4 115.9509 0)
+			(at 128.27 86.7409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn"
-			(at 149.5552 119.38 0)
+			(at 125.4252 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 115.57 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 148.59 115.57 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1987,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 148.59 125.73 0)
+		(at 124.46 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1844,7 +1996,7 @@
 		(fields_autoplaced yes)
 		(uuid "c41754ab-1746-46be-bcd1-2df8327f6ed3")
 		(property "Reference" "C2"
-			(at 152.4 123.5709 0)
+			(at 128.27 94.3609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +2005,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 152.4 126.1109 0)
+			(at 128.27 96.9009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +2014,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D40.0mm_P10.00mm_SnapIn"
-			(at 149.5552 129.54 0)
+			(at 125.4252 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +2023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 125.73 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2032,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 148.59 125.73 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
