@@ -713,7 +713,7 @@
 		(uuid "2116ec0b-b9d3-4603-a4b0-37fde4b7dc92")
 	)
 	(junction
-		(at 86.36 53.34)
+		(at 88.9 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43e0b15c-920a-4ad6-a6f9-89bb9fbd6cdd")
@@ -731,13 +731,13 @@
 		(uuid "7b59974a-3ddf-473d-a186-666c7641834f")
 	)
 	(junction
-		(at 86.36 130.81)
+		(at 88.9 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88fe30d4-d80c-43d8-9058-92a9012d534f")
 	)
 	(junction
-		(at 86.36 92.71)
+		(at 88.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf50d373-3f4f-4da0-8569-0d5152813b80")
@@ -756,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 53.34) (xy 101.6 53.34)
+			(xy 101.6 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -796,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 130.81) (xy 86.36 130.81)
+			(xy 76.2 130.81) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 92.71) (xy 101.6 92.71)
+			(xy 101.6 92.71) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 91.44 130.81)
+			(xy 88.9 130.81) (xy 93.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 86.36 53.34)
+			(xy 76.2 53.34) (xy 88.9 53.34)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 130.81) (xy 101.6 130.81)
+			(xy 101.6 130.81) (xy 104.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 53.34) (xy 91.44 53.34)
+			(xy 88.9 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 86.36 92.71)
+			(xy 76.2 92.71) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 91.44 92.71)
+			(xy 88.9 92.71) (xy 93.98 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1044,7 @@
 		)
 		(uuid "f5fbb12b-2fc2-40a1-ab9c-10fbb1fcdec5")
 	)
-	(text_box "Jump R=0 when Optical Rx is used.\n\nOtherwise, DNP whole module (at least R jumper)"
+	(text_box "Place jumper R=0 when Optical Rx is used.\n\nOtherwise, DNP whole module (at least R jumper)"
 		(exclude_from_sim no)
 		(at 74.93 152.4 0)
 		(size 53.34 7.62)
@@ -1130,7 +1130,7 @@
 		(uuid "4f24ee89-cc0d-413f-8cf2-23abebbc6c07")
 	)
 	(label "vcc"
-		(at 101.6 130.81 0)
+		(at 104.14 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,7 +1141,7 @@
 		(uuid "51abb363-04c3-4f1a-ad67-81c34484f233")
 	)
 	(label "gnd"
-		(at 101.6 100.33 0)
+		(at 104.14 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1152,7 +1152,7 @@
 		(uuid "5bad400c-75a0-4112-9473-9f7177cb081d")
 	)
 	(label "gnd"
-		(at 101.6 138.43 0)
+		(at 104.14 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1196,7 +1196,7 @@
 		(uuid "8241c0cf-5f30-408c-9ef2-3112107913d1")
 	)
 	(label "gnd"
-		(at 101.6 60.96 0)
+		(at 104.14 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1207,7 +1207,7 @@
 		(uuid "97f0b438-7e8a-4389-88df-31e8c0cb0454")
 	)
 	(label "vcc"
-		(at 101.6 53.34 0)
+		(at 104.14 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1218,7 +1218,7 @@
 		(uuid "9ab9769a-ce12-4c07-a191-5d6cd8f896fb")
 	)
 	(label "gnd"
-		(at 86.36 100.33 0)
+		(at 88.9 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1229,7 +1229,7 @@
 		(uuid "a930871c-963d-4090-9bba-af1e2546e46b")
 	)
 	(label "gnd"
-		(at 86.36 138.43 0)
+		(at 88.9 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1251,7 +1251,7 @@
 		(uuid "c3f37984-f4d7-4fcf-8415-8d3463a5dbbb")
 	)
 	(label "gnd"
-		(at 86.36 60.96 0)
+		(at 88.9 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1284,7 +1284,7 @@
 		(uuid "e830be3e-4b2d-4c23-88e0-411630fa5e55")
 	)
 	(label "vcc"
-		(at 101.6 92.71 0)
+		(at 104.14 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1378,7 +1378,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 86.36 96.52 0)
+		(at 88.9 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1387,7 @@
 		(fields_autoplaced yes)
 		(uuid "1918cbf8-a104-4a6b-a56f-ffe3588a0385")
 		(property "Reference" "C36"
-			(at 90.17 95.2499 0)
+			(at 92.71 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,8 +1395,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 90.17 97.7899 0)
+		(property "Value" "10u"
+			(at 92.71 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,8 +1404,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.3252 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 89.8652 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 96.52 0)
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 96.52 0)
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1448,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:L")
-		(at 95.25 53.34 90)
+		(at 97.79 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1457,23 +1457,23 @@
 		(fields_autoplaced yes)
 		(uuid "261fb8df-b6c4-4cea-8862-10644ab18ea8")
 		(property "Reference" "L4"
-			(at 95.25 48.26 90)
+			(at 97.79 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 95.25 50.8 90)
+		(property "Value" "1u"
+			(at 97.79 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 53.34 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 95.25 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1516,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 101.6 57.15 0)
+		(at 104.14 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1525,7 +1525,7 @@
 		(fields_autoplaced yes)
 		(uuid "26fd0d42-8d3c-413b-9a26-42f0652030fa")
 		(property "Reference" "C38"
-			(at 105.41 55.8799 0)
+			(at 107.95 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,8 +1533,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 105.41 58.4199 0)
+		(property "Value" "10u"
+			(at 107.95 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,8 +1542,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.5652 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 105.1052 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 57.15 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 57.15 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1586,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 101.6 134.62 0)
+		(at 104.14 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1595,7 +1595,7 @@
 		(fields_autoplaced yes)
 		(uuid "2af9d0d6-3c85-4b7a-a95b-4c14c3311cc5")
 		(property "Reference" "C40"
-			(at 105.41 133.3499 0)
+			(at 107.95 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,8 +1603,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 105.41 135.8899 0)
+		(property "Value" "10u"
+			(at 107.95 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,8 +1612,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.5652 138.43 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 105.1052 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 134.62 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 134.62 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1656,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 86.36 57.15 0)
+		(at 88.9 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1665,7 +1665,7 @@
 		(fields_autoplaced yes)
 		(uuid "3471ee4b-f8e2-4828-b785-d7395fb410b9")
 		(property "Reference" "C35"
-			(at 90.17 55.8799 0)
+			(at 92.71 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,8 +1673,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 90.17 58.4199 0)
+		(property "Value" "10u"
+			(at 92.71 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,8 +1682,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.3252 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 89.8652 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 57.15 0)
+			(at 88.9 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1701,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 57.15 0)
+			(at 88.9 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 71.882 90)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 107.442 90)
 			(effects
 				(font
@@ -1883,7 +1883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 145.542 90)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 80.01 135.8899 0)
 			(effects
 				(font
@@ -1953,7 +1953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 138.43 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 80.01 58.4199 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 60.96 0)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 101.6 96.52 0)
+		(at 104.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2076,7 +2076,7 @@
 		(fields_autoplaced yes)
 		(uuid "a26f60ae-4a8c-43a5-bbb9-7f7fd7d29267")
 		(property "Reference" "C39"
-			(at 105.41 95.2499 0)
+			(at 107.95 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,8 +2084,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 105.41 97.7899 0)
+		(property "Value" "10u"
+			(at 107.95 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,8 +2093,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.5652 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 105.1052 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 96.52 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 96.52 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,16 +2137,15 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:C")
-		(at 86.36 134.62 0)
+		(at 88.9 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5b337db-dc81-4005-8c69-9fddff291784")
 		(property "Reference" "C37"
-			(at 90.17 133.3499 0)
+			(at 92.71 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,8 +2153,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 90.17 135.8899 0)
+		(property "Value" "10u"
+			(at 92.71 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,8 +2162,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.3252 138.43 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 89.8652 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 134.62 0)
+			(at 88.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 134.62 0)
+			(at 88.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:Broadcom_AFBR-16xxZ_Horizontal"
 			(at 55.88 121.92 0)
 			(effects
 				(font
@@ -2315,7 +2314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:Broadcom_AFBR-16xxZ_Horizontal"
 			(at 55.88 160.02 0)
 			(effects
 				(font
@@ -2371,7 +2370,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:L")
-		(at 95.25 92.71 90)
+		(at 97.79 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2380,23 +2379,23 @@
 		(fields_autoplaced yes)
 		(uuid "d03717c8-e01a-4fd2-abe8-2281953a0c57")
 		(property "Reference" "L5"
-			(at 95.25 87.63 90)
+			(at 97.79 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 95.25 90.17 90)
+		(property "Value" "1u"
+			(at 97.79 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 92.71 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 92.71 0)
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2413,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 95.25 92.71 0)
+			(at 97.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2438,7 @@
 	)
 	(symbol
 		(lib_id "HalfBridge_SiC:L")
-		(at 95.25 130.81 90)
+		(at 97.79 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2448,23 +2447,23 @@
 		(fields_autoplaced yes)
 		(uuid "da488be5-51fd-4dc5-97e7-7f20555303d1")
 		(property "Reference" "L6"
-			(at 95.25 125.73 90)
+			(at 97.79 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 95.25 128.27 90)
+		(property "Value" "1u"
+			(at 97.79 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 130.81 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 130.81 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +2481,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 95.25 130.81 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 80.01 97.7899 0)
 			(effects
 				(font
@@ -2533,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 100.33 0)
 			(effects
 				(font
@@ -2603,7 +2602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:Broadcom_AFBR-16xxZ_Horizontal"
 			(at 55.88 86.36 0)
 			(effects
 				(font
