@@ -1,0 +1,84 @@
+\begin{tikzpicture}[
+    %every node/.style={inner sep=0,outer sep=0},
+    %shorten >=1pt,
+    %node distance=2cm,
+    %on grid,
+    %auto,
+]%
+
+\tikzset{
+	every node/.style={
+		font=\small,
+		},
+	block1/.style={
+		draw,
+		rectangle,
+		minimum width=1cm,
+		minimum height=0.7cm,
+		align=center,
+	},
+	dotnode/.style={
+		draw,
+		circle,
+		fill=black,
+		minimum size=4pt,
+		inner sep=0pt,
+	},
+	opcircle/.style={
+		draw,
+		circle,
+		minimum size=12pt,
+		inner sep=0pt,
+	},
+	complexnode_pspwm/.pic={%
+		\draw[thin]%
+			(-0.4,0.1) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2)
+		;%
+		\draw[thin,densely dotted]%
+			(-0.4,0.3) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2)
+		;%
+		\draw[]
+			(0,-0.35) node[anchor=south](){PSPWM}
+		;
+	},
+}
+
+%nodes
+\draw[visible on=<1->,] 
+	(0,0) node[block1](n_G){$G(s)$}
+
+	(n_G.south) ++(0,-0.5) node[anchor=north,block1](n_F){$F(s)$}
+
+	(n_G.west) ++(-1,0) node[anchor=east,block1](n_C){$C(s)$}
+
+	(n_C.west) ++(-1,0) node[anchor=east,opcircle](n_sum1){}
+
+	(n_G.east) ++(1.0,0) node[anchor=west,block1,text opacity=0.0](n_PWM){PSPWM} 
+	
+	(n_PWM) pic {complexnode_pspwm}
+;
+
+%connectors
+\draw[-Stealth,visible on=<2->,]
+	(n_G.east) -- ++(0.5,0)node[dotnode,label={[above]$y(t)$}](n_y1){} -- (n_PWM.west)
+;
+\draw[-Stealth,visible on=<2->,]
+	(n_y1) -- (n_y1 |- n_F.east) -- (n_F.east)
+;
+\draw[-Stealth,visible on=<2->,]
+	(n_F.west) -- (n_F.west -| n_sum1.south) -- (n_sum1.south)node[coordinate,label={[below right]$-$}](){}
+;
+\draw[-Stealth,visible on=<2->,]
+	(n_sum1.east) -- (n_C.west) node[pos=0.5,coordinate,label={[above]$\varepsilon(t)$}](){}
+;
+\draw[-Stealth,visible on=<2->,]
+	(n_C.east) -- (n_G.west) node[pos=0.5,coordinate,label={[above]$u(t)$}](){}
+;
+\draw[Stealth-,visible on=<2->,]
+	(n_sum1.west) -- ++(-0.5,0)node[coordinate,label={[above]$r(t)$}](){}
+;
+\draw[]
+	(n_F.south) node[anchor=north](){The text}
+;
+
+\end{tikzpicture}

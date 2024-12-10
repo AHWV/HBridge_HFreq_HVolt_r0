@@ -1825,6 +1825,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "7466303"
+			(at 256.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab5937ed-eeab-4417-9307-7e2f6400b75b")
 		)
@@ -1884,6 +1893,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "7466303"
 			(at 256.54 68.58 0)
 			(effects
 				(font
@@ -2029,6 +2047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "7466303"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f73673b-426d-4bef-9205-ace06cff6dc1")
 		)
@@ -2088,6 +2115,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "7466303"
 			(at 256.54 55.88 0)
 			(effects
 				(font

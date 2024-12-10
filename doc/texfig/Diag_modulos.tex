@@ -1,0 +1,51 @@
+\RequirePackage[OT1]{fontenc}%
+\documentclass[%
+	class=IEEEtran,
+	% beamer,
+	tikz,
+	crop,
+	preview,
+	multi=true,
+	multido=true,
+	]{standalone}
+    
+\usepackage{currfile}
+\usepackage[outline]{contour}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+
+% % serif text/math fonts
+% \usefonttheme{serif}
+% \usefonttheme{professionalfonts}
+
+% % IEEEtran fonts
+% \renewcommand{\sfdefault}{phv}
+% \renewcommand{\rmdefault}{ptm}
+% \renewcommand{\ttdefault}{pcr}
+
+\usetikzlibrary{through}
+\usetikzlibrary{angles}
+\usetikzlibrary{quotes}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{matrix}
+\usetikzlibrary{calc}
+\usetikzlibrary{overlay-beamer-styles}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{automata}
+\usetikzlibrary{positioning}
+\usetikzlibrary{patterns,patterns.meta}
+
+\usepgfplotslibrary{units}
+\usepgfplotslibrary{groupplots}
+
+\pgfplotsset{compat=newest}
+\pgfplotsset{unit code/.code 2 args={\si{#1#2}}}
+
+\begin{document}%
+	% \begin{standaloneframe}[fragile]
+		\begin{figure}
+			\input{\jobname.tikz}%
+		\end{figure}
+	% \end{standaloneframe}
+\end{document}%

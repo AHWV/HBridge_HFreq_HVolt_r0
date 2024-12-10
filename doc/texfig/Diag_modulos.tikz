@@ -1,0 +1,62 @@
+\begin{tikzpicture}[
+    %every node/.style={inner sep=0,outer sep=0},
+    %shorten >=1pt,
+    %node distance=2cm,
+    %on grid,
+    %auto,
+]%
+
+\tikzset{
+	every node/.style={
+		font=\small,
+		},
+	block1/.style={
+		draw,
+		rectangle,
+		minimum width=1cm,
+		minimum height=0.7cm,
+		align=center,
+	},
+	dotnode/.style={
+		draw,
+		circle,
+		fill=black,
+		minimum size=4pt,
+		inner sep=0pt,
+	},
+	opcircle/.style={
+		draw,
+		circle,
+		minimum size=12pt,
+		inner sep=0pt,
+	},
+	complexnode_pspwm/.pic={%
+		\draw[thin]%
+			(-0.4,0.1) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2)
+		;%
+		\draw[thin,densely dotted]%
+			(-0.4,0.3) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2) -- ++(0.15,0.2) -- ++(0.15,-0.2)
+		;%
+		\draw[]
+			(0,-0.35) node[anchor=south](){PSPWM}
+		;
+	},
+}
+
+%nodes
+\draw[] 
+	(0,0) node[block1](n_RECT){RECT}
+
+	(n_RECT.east) ++(1,0) node[block1,anchor=west](n_BRI1){BRI1}
+
+	(n_BRI1.south) ++(0,-0.5) node[block1,anchor=north](n_BRI2){BRI2}
+
+	(n_BRI1.east) ++(1,0) node[block1,anchor=west](n_FILT){FILT}
+
+	(n_FILT.east) ++(1,0) node[block1,anchor=west](n_HVTR){HVTR}
+
+;
+
+
+
+\end{tikzpicture}

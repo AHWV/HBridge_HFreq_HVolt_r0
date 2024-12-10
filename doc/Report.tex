@@ -1,0 +1,69 @@
+%% Template for ENG 401 reports
+%% by Robin Turner
+%% Adapted from the IEEE peer review template
+
+%
+% note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+
+\documentclass[peerreview,spanish]{IEEEtran}
+
+\input{conf/conf_usepackage.tex}
+
+\begin{document}
+% \begin{titlepage}
+%-------------------------------------------
+% título
+\title{%
+	Documento de diseño de Inversor Puente-H%
+}
+\author{%
+	Dr.-Ing. Alan Wilson Veas%
+}
+\date{\today}
+%-------------------------------------------
+
+% make the title area
+\maketitle
+\tableofcontents
+\listoffigures
+\listoftables
+% \end{titlepage}
+
+\IEEEpeerreviewmaketitle
+\begin{abstract}
+Este documento describe el diseño de un inversor puente-H
+
+\end{abstract}
+
+\section{Requisitos}
+
+Los requisitos del sistema se muestran en la \ref{tab:requisitos}.
+
+\Blindtext[1][1]
+
+\begin{table}
+	\caption{Parámetros generales del sistema como requisito.}
+	\label{tab:requisitos}
+	\centering
+	\begin{tabular}{lcc}
+		\toprule
+		Descripción & Símbolo & Valor \\
+		\midrule
+		Potencia nominal & $P$ & \qty{1}{\kilo\watt}\\
+		Frecuencia de salida máxima & $f_{o}$ & \qty{2}{\kilo\hertz}\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\section{Diagrama modular}
+
+\begin{figure}
+	\centering
+	\includestandalone{texfig/Diag_modulos}
+	\label{fig:modulos}
+	\caption{Diagrama modular general del sistema.}
+\end{figure}
+
+\end{document}

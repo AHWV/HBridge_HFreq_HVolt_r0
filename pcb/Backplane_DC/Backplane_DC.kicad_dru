@@ -3,17 +3,17 @@
 (rule HV_HV
    # HV 1
    (constraint clearance (min "4.0mm"))
-   (condition "A.NetName == '/dcp' && (B.NetName == '/dcn' || B.NetName == '/dcm' || B.NetName == '/l1' || B.NetName == '/l2' || B.NetName == '/l3') ")
+   (condition "A.NetName == '/dcp' && (B.NetName == '/dcn' || B.NetName == '/dcm' || B.NetName == '/pha' || B.NetName == '/gnd' || B.NetName == '/5v') ")
 )
 
 (rule HV_HV
    # HV 2
    (constraint clearance (min "4.0mm"))
-   (condition "A.NetName == '/dcn' && (B.NetName == '/dcp' || B.NetName == '/dcm' || B.NetName == '/l1' || B.NetName == '/l2' || B.NetName == '/l3') ")
+   (condition "A.NetName == '/dcn' && (B.NetName == '/dcp' || B.NetName == '/dcm' || B.NetName == '/pha' || B.NetName == '/phb' || B.NetName == '/gnd' || B.NetName == '/5v' ) ")
 )
 
 (rule HV_HV
    # HV 2
    (constraint clearance (min "4.0mm"))
-   (condition "A.NetName == '/dcm' && (B.NetName == '/dcp' || B.NetName == '/dcn' || B.NetName == '/l1' || B.NetName == '/l2' || B.NetName == '/l3') ")
+   (condition "A.NetName == '/dcm' && (B.NetName == '/dcp' || B.NetName == '/dcn' || B.NetName == '/pha' || B.NetName == '/phb' || B.NetName == '/gnd' || B.NetName == '/5v' ) ")
 )
