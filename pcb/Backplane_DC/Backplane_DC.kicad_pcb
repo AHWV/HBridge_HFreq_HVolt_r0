@@ -404,7 +404,7 @@
 	(footprint "Connector_Phoenix_SPT:PhoenixContact_SPT_1.5_2-H-3.5_1x02_P3.5mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d6fed93f-ff16-44d0-bd90-5c03a136c24c")
-		(at 128.2 138.1 90)
+		(at 128.1 138 90)
 		(descr "Connector Phoenix Contact, SPT 1.5/2-H-3.5 Terminal Block, 1990737 (https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1990737), generated with kicad-footprint-generator")
 		(tags "Connector Phoenix Contact SPT 1.5/2-H-3.5 1990737")
 		(property "Reference" "J1"
@@ -1636,7 +1636,7 @@
 	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 		(layer "B.Cu")
 		(uuid "a1e82f2d-d28b-484b-b5dc-ff73ab3b1a13")
-		(at 128.037999 45.079999 180)
+		(at 128.037999 47.619999 180)
 		(descr "Mounting Hole 4.3mm, M4, DIN965")
 		(tags "mounting hole 4.3mm m4 din965")
 		(property "Reference" "H10"
@@ -2128,7 +2128,7 @@
 	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 		(layer "B.Cu")
 		(uuid "e0279d46-a202-4692-a276-54246a6fbe61")
-		(at 67.077999 45.079999 180)
+		(at 67.077999 47.619999 180)
 		(descr "Mounting Hole 4.3mm, M4, DIN965")
 		(tags "mounting hole 4.3mm m4 din965")
 		(property "Reference" "H9"
@@ -2421,12 +2421,12 @@
 		(layer "Dwgs.User")
 		(uuid "2ac34a8e-7733-455f-99d1-a82525d4c0aa")
 		(pts
-			(xy 80 55.239999) (xy 116.119999 45.079999)
+			(xy 74.697999 55.239999) (xy 128.037999 47.619999)
 		)
-		(height -42)
+		(height -37.997999)
 		(orientation 1)
-		(gr_text "400.0000 mils"
-			(at 36.85 50.159999 90)
+		(gr_text "300.0000 mils"
+			(at 35.55 51.429999 90)
 			(layer "Dwgs.User")
 			(uuid "2ac34a8e-7733-455f-99d1-a82525d4c0aa")
 			(effects
