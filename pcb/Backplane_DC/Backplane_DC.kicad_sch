@@ -592,6 +592,25 @@
 		)
 		(uuid "b16822a2-72d8-419b-aa06-ef9fd38e4706")
 	)
+	(text_box "AC/DC-DC converter to 5V"
+		(exclude_from_sim no)
+		(at 127 24.638 0)
+		(size 30.988 8.636)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2b359129-03bc-4260-8036-5ba8efff4115")
+	)
 	(label "dcn"
 		(at 128.27 49.53 0)
 		(fields_autoplaced yes)

@@ -8178,7 +8178,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at -2.794 0 360)
+			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "d6aa803b-cd09-4d92-9e19-bd78c9b7211a")
 			(effects
@@ -8189,7 +8189,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "19bd0a31-f823-4088-a8ec-53c40261ef3a")
 			(effects
@@ -8344,7 +8344,7 @@
 			(uuid "b05bdf8e-c1f0-4853-8c61-54a65a90b932")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "85ed4305-bbd1-4742-90c5-efacd0776943")
 			(effects
@@ -9507,7 +9507,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 n"
 			(at 4.304 0.034 180)
 			(layer "F.Fab")
 			(uuid "e80004d2-33bb-44a5-af6c-261353ee0c61")
@@ -10809,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 n"
 			(at 4.558 -0.028 180)
 			(layer "F.Fab")
 			(uuid "8e9d95a2-c9d8-4b19-a9b1-e6cd20c0a6aa")
@@ -16226,7 +16226,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 n"
 			(at 4.558 0.13 180)
 			(layer "F.Fab")
 			(uuid "c496559f-cf53-470d-b825-2c19e5a174e6")
@@ -18833,7 +18833,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 n"
 			(at 4.558 0.068 180)
 			(layer "F.Fab")
 			(uuid "1400a8b1-8599-4692-91fc-2e9e546f2faf")
@@ -24334,7 +24334,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at -2.794 0 360)
+			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "8022067c-418b-4337-aaba-719870f36107")
 			(effects
@@ -24345,7 +24345,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "39fa41c5-9395-4932-bd0b-7b2267cde04f")
 			(effects
@@ -24500,7 +24500,7 @@
 			(uuid "a22dfe5e-1d69-4870-8b0c-14ac314047f1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "63f937bd-f9c0-493c-93b0-d03b4f53bcbb")
 			(effects
@@ -24547,7 +24547,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at -2.476 -0.0815 360)
+			(at -2.476 -0.0815 0)
 			(layer "F.SilkS")
 			(uuid "4a4549b2-e592-4768-b57f-d0195f389f78")
 			(effects
@@ -24558,7 +24558,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f95985ee-7bac-4e56-b1ed-1f754083c0f5")
 			(effects
@@ -24713,7 +24713,7 @@
 			(uuid "15ba70f7-efa7-4514-83ac-0301e842a30a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c78702b8-b0d8-4b7d-984e-932128a13ef2")
 			(effects
@@ -28030,6 +28030,318 @@
 			(uuid "452365fa-fd7b-4dc4-993a-2a2287211e0f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Package_TO_SOT_THT:TO-247-4_Vertical"
+		(layer "B.Cu")
+		(uuid "293291d0-1f48-413a-9879-9b8fb92ad687")
+		(at 80.05 115.291 -90)
+		(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
+		(tags "TO-247-4 Vertical RM 2.54mm")
+		(property "Reference" "Q4"
+			(at 3.809 -3.85 90)
+			(layer "B.SilkS")
+			(uuid "3304515b-af30-4d5c-b9e9-beca751d3131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C3M0040120K"
+			(at 5.08 -3.95 90)
+			(layer "B.Fab")
+			(uuid "cb9e8d00-baac-42b8-9ce0-60a5f557c670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-4_Vertical"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "955a8ef1-a2af-49bc-9d3e-92d1817021e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2023/08/Wolfspeed_C3M0040120K_data_sheet.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d3a9953-d858-4ff2-a45b-89a8df5cfe2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1200V 40mohm Silicon Carbide Power MOSFET N-Channel Enhancement Mode - Wolfspeed"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0d47e14a-68ed-4283-b6b2-2f637149fa79")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Package_TO_SOT_THT:TO-247-4*")
+		(path "/e430685f-ad0a-4a48-becd-63dd913bcc64/d2b92f0c-bd5a-475a-9cde-1777607acead")
+		(sheetname "HalfBridge_Power")
+		(sheetfile "HalfBridge_Power.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 13.15 2.451)
+			(end -2.99 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8fdde59d-c18a-448e-88ae-8f2f04e5bfbf")
+		)
+		(fp_line
+			(start 6.885 2.4)
+			(end 6.885 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c1d0808b-d216-4e5f-a787-cdaaa2ab1bb9")
+		)
+		(fp_line
+			(start -2.99 -2.82)
+			(end -2.99 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "29c1bc83-21f8-48b7-900f-b34ae71a1481")
+		)
+		(fp_line
+			(start 3.276 -2.82)
+			(end 3.276 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e13d9f25-4929-4be0-b021-95ac63ff7880")
+		)
+		(fp_line
+			(start 6.885 -2.82)
+			(end 6.885 -2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "80ddfedc-6e63-48e3-926e-5fd3cf63a48b")
+		)
+		(fp_line
+			(start 13.15 -2.82)
+			(end 13.15 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "19f33564-203a-4115-90d1-14a151c3e8fc")
+		)
+		(fp_line
+			(start 13.15 -2.82)
+			(end -2.99 -2.82)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8cf48d24-ff63-4429-a28f-93bd2407d070")
+		)
+		(fp_line
+			(start -3.12 2.59)
+			(end 13.28 2.59)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cf139be4-2012-4764-b994-820743febd6c")
+		)
+		(fp_line
+			(start 13.28 2.59)
+			(end 13.28 -2.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0dfaaf8d-4d30-4db2-9730-de66f12e1df5")
+		)
+		(fp_line
+			(start -3.12 -2.95)
+			(end -3.12 2.59)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c574897d-f96c-476b-8b29-2c8903990387")
+		)
+		(fp_line
+			(start 13.28 -2.95)
+			(end -3.12 -2.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f57078bf-9fe6-4083-b542-88147ae7aa1b")
+		)
+		(fp_line
+			(start -2.87 2.33)
+			(end 13.03 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7d2fe8a3-bd9d-4226-b25d-f1a89812fbf0")
+		)
+		(fp_line
+			(start 13.03 2.33)
+			(end 13.03 -2.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e75342dd-1d2f-41df-9164-59543e408d72")
+		)
+		(fp_line
+			(start -2.87 -2.7)
+			(end -2.87 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "6b5d2d12-35f5-4e75-ae21-9456dfa680f8")
+		)
+		(fp_line
+			(start 3.275 -2.7)
+			(end 3.275 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0c3330b2-9fcf-416a-b592-332ba6452622")
+		)
+		(fp_line
+			(start 6.885 -2.7)
+			(end 6.885 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "698a18f9-4629-4228-8cfc-4fffb840017f")
+		)
+		(fp_line
+			(start 13.03 -2.7)
+			(end -2.87 -2.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b32c32ee-bd32-42a8-9213-9bfe299b63e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.08 3.45 90)
+			(layer "B.Fab")
+			(uuid "e7e91b73-f1a9-4f79-a731-4c4d2873d6a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "/ph")
+			(pinfunction "D")
+			(pintype "passive")
+			(uuid "1db62234-802d-4d66-921b-a3621522a1e8")
+		)
+		(pad "2" thru_hole oval
+			(at 5.08 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/dcn")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "2323af26-e489-4df7-a2ca-16684002f043")
+		)
+		(pad "3" thru_hole oval
+			(at 7.62 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "/HalfBridge_GateDriver/kl")
+			(pinfunction "DS")
+			(pintype "passive")
+			(uuid "2ca112b5-e019-4b85-aec0-e5dcde43f9e2")
+		)
+		(pad "4" thru_hole oval
+			(at 10.16 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "/HalfBridge_Power/gl")
+			(pinfunction "G")
+			(pintype "input")
+			(uuid "1a0a813f-b0a4-4a38-8c46-120336dcfcaf")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-4_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38177,7 +38489,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10 u"
 			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38356,433 +38668,6 @@
 			)
 			(rotate
 				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "Package_TO_SOT_THT:TO-247-4_Vertical"
-		(layer "B.Cu")
-		(uuid "bbd13014-4cba-432e-ad8c-4070ae466a86")
-		(at 80.05 98.291 -90)
-		(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
-		(tags "TO-247-4 Vertical RM 2.54mm")
-		(property "Reference" "Q1"
-			(at 5.125 -3.7 90)
-			(layer "B.SilkS")
-			(uuid "dc827e54-bcca-4ba2-a4c6-8c2245f190dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "C3M0075120K"
-			(at 10.33 -3.95 90)
-			(layer "B.Fab")
-			(uuid "e3716cc1-2009-4611-a2b4-d09a960ca689")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-4_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8f9d6abb-66ab-463f-9fbe-6b81044eeb2e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1f618ff3-e6cb-4420-85d0-46d294ad1b90")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-247-4"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6026cc1a-2374-4887-bd63-cba1c3ea541b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d98a0cd2-cd7e-45ab-b9d5-fda7faba54b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a152b250-d0ce-470f-8f59-bfb8e17deb9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Height" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "04145138-2df8-445a-8b9d-cf904ef1fd83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "70b46a37-0689-478e-b69d-a3e2c53672ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fdf22291-b58b-4879-91ce-cab2c604546f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d275e9ad-ae53-4917-94db-aa07de62157d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d4845044-25b1-4da2-a3f1-dde30472c142")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "86535fee-8d46-4de1-b39a-0fea97c6b73c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "TO?247*")
-		(path "/e430685f-ad0a-4a48-becd-63dd913bcc64/5f5d9b1d-094d-49eb-9305-2f7846d901c3")
-		(sheetname "HalfBridge_Power")
-		(sheetfile "HalfBridge_Power.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 13.15 2.451)
-			(end -2.99 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8db83adb-8b33-4292-aff6-4474a2bdad6c")
-		)
-		(fp_line
-			(start 6.885 2.4)
-			(end 6.885 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ac8b1c9d-82fe-4b67-8dbe-0def90165a0e")
-		)
-		(fp_line
-			(start -2.99 -2.82)
-			(end -2.99 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "11f1591a-2dcc-4642-939e-c6c468fc1fb2")
-		)
-		(fp_line
-			(start 3.276 -2.82)
-			(end 3.276 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "75f3310c-5ba6-42d0-9f1c-4ee171b504b6")
-		)
-		(fp_line
-			(start 6.885 -2.82)
-			(end 6.885 -2.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "91c2f4ae-cc1c-41c1-baf9-777be80c8b3a")
-		)
-		(fp_line
-			(start 13.15 -2.82)
-			(end 13.15 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bbe33fcb-0b3d-4641-87d0-181729e01a15")
-		)
-		(fp_line
-			(start 13.15 -2.82)
-			(end -2.99 -2.82)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "31c015ed-0e31-4f0b-a834-8b9537b8f5a0")
-		)
-		(fp_line
-			(start -3.12 2.59)
-			(end 13.28 2.59)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "48caf81f-8b6b-4778-912c-0c9a6a980a13")
-		)
-		(fp_line
-			(start 13.28 2.59)
-			(end 13.28 -2.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "bfe8b594-605d-4ae5-93e6-fc2147069b11")
-		)
-		(fp_line
-			(start -3.12 -2.95)
-			(end -3.12 2.59)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6c491c2d-5d02-4363-a88c-8e057656304e")
-		)
-		(fp_line
-			(start 13.28 -2.95)
-			(end -3.12 -2.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "5097cd43-6ac0-4ef2-a4f9-1d39a1a736e6")
-		)
-		(fp_line
-			(start -2.87 2.33)
-			(end 13.03 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4c92ca7a-21b7-4560-b125-3363a4c14a46")
-		)
-		(fp_line
-			(start 13.03 2.33)
-			(end 13.03 -2.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d1e4cc87-654a-4ab1-a4e1-d6a94d923b2d")
-		)
-		(fp_line
-			(start -2.87 -2.7)
-			(end -2.87 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "90671bed-385e-4411-b005-aa38081e23a0")
-		)
-		(fp_line
-			(start 3.275 -2.7)
-			(end 3.275 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d7925b14-fe70-4564-aa79-a5db181b5f86")
-		)
-		(fp_line
-			(start 6.885 -2.7)
-			(end 6.885 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "45868942-0c4b-41b1-acbe-4bd1b15f0897")
-		)
-		(fp_line
-			(start 13.03 -2.7)
-			(end -2.87 -2.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b5b1b6f8-62e6-482c-93d9-241adfecd950")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 3.45 90)
-			(layer "B.Fab")
-			(uuid "4973c999-28be-4e4e-a5a6-6738279ff53b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "/dcp")
-			(pinfunction "D")
-			(pintype "passive")
-			(uuid "45c11fca-284c-4a07-8fe3-93a9cdd9810e")
-		)
-		(pad "2" thru_hole oval
-			(at 5.08 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "/ph")
-			(pinfunction "S")
-			(pintype "passive")
-			(uuid "f3517ec9-0b21-4009-b118-32a7c68f64e7")
-		)
-		(pad "3" thru_hole oval
-			(at 7.62 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "/HalfBridge_GateDriver/kh")
-			(pinfunction "DS")
-			(pintype "passive")
-			(uuid "5158ac84-f1ab-4076-9b1d-eadadda8621e")
-		)
-		(pad "4" thru_hole oval
-			(at 10.16 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "/HalfBridge_Power/gh")
-			(pinfunction "G")
-			(pintype "input")
-			(uuid "af4f1daf-e4af-4781-ac08-d57c65721a4c")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-4_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -39468,7 +39353,7 @@
 			(remove_unused_layers no)
 			(net 38 "/HalfBridge_Diff/gnd")
 			(pinfunction "VIN-")
-			(pintype "passive")
+			(pintype "power_in")
 			(uuid "d721044a-e997-4609-bb5c-c4afa7748cf2")
 		)
 		(pad "5" thru_hole circle
@@ -39909,7 +39794,7 @@
 			(remove_unused_layers no)
 			(net 38 "/HalfBridge_Diff/gnd")
 			(pinfunction "VIN-")
-			(pintype "passive")
+			(pintype "power_in")
 			(uuid "a5ff3568-af85-4b67-aa7d-cdfe8a2a3280")
 		)
 		(pad "5" thru_hole circle
@@ -40392,433 +40277,6 @@
 			)
 			(rotate
 				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "Package_TO_SOT_THT:TO-247-4_Vertical"
-		(layer "B.Cu")
-		(uuid "d210d550-a1d0-47c4-973a-c7c841d41241")
-		(at 80.05 115.291 -90)
-		(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
-		(tags "TO-247-4 Vertical RM 2.54mm")
-		(property "Reference" "Q2"
-			(at 5.325 -3.9 90)
-			(layer "B.SilkS")
-			(uuid "bc364898-145d-48d3-8489-7ba0af3b23de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "C3M0075120K"
-			(at 10.33 -3.95 90)
-			(layer "B.Fab")
-			(uuid "2ed29e42-f9a2-405d-95a9-75b01c1915c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-4_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5daa43f2-e26d-4a68-b31d-06953caff069")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0a0348ae-4355-495d-ae16-ac243a7591be")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "30A Id, 1200V Vds, 75mOhm, N-Channel SiC MOSFET, TO-247-4"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "10d6fa6e-202a-4e1c-a2a8-3a9ac8741565")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1a699572-f83b-4f47-beab-bb477372dcc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4137f276-4a46-4d76-b079-23b2402286c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Height" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c7fbb2dc-16d6-4af0-946c-2564825dce66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "74d0e76c-60c3-41b6-955e-961d4f36ef67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "26225fe3-4234-40cc-97cc-45ed1b62f5e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8824e7e3-7034-4c0a-9265-1a3d51038809")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2c003b23-de9f-4be1-baac-3d5947995c95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e25d1bda-6c16-4898-b11d-88f37d00c787")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "TO?247*")
-		(path "/e430685f-ad0a-4a48-becd-63dd913bcc64/2255aaab-9374-4784-aa9f-5ee3e982b35a")
-		(sheetname "HalfBridge_Power")
-		(sheetfile "HalfBridge_Power.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 13.15 2.451)
-			(end -2.99 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2e498543-2233-405c-9bbd-1f3936aa2429")
-		)
-		(fp_line
-			(start 6.885 2.4)
-			(end 6.885 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0494e26a-0def-4ab9-bddb-ca9efe89ecf1")
-		)
-		(fp_line
-			(start -2.99 -2.82)
-			(end -2.99 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ab16c051-cc33-4b77-9c72-861bbf55ed53")
-		)
-		(fp_line
-			(start 3.276 -2.82)
-			(end 3.276 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5cce5d3e-067d-42e3-8bc9-6412f2a433a9")
-		)
-		(fp_line
-			(start 6.885 -2.82)
-			(end 6.885 -2.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a0ab9e50-61c1-4234-beff-88d9c281534f")
-		)
-		(fp_line
-			(start 13.15 -2.82)
-			(end 13.15 2.451)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "75d64246-bfa0-474c-8c14-3102fb3ea3e4")
-		)
-		(fp_line
-			(start 13.15 -2.82)
-			(end -2.99 -2.82)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1e23e745-8ce9-4cd6-b64c-8305824df82f")
-		)
-		(fp_line
-			(start -3.12 2.59)
-			(end 13.28 2.59)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c39fe132-3a2a-4d9f-be68-90805effa3d6")
-		)
-		(fp_line
-			(start 13.28 2.59)
-			(end 13.28 -2.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "135dfc1b-560f-4a39-b1ab-a79bb9f8c949")
-		)
-		(fp_line
-			(start -3.12 -2.95)
-			(end -3.12 2.59)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "7bababf4-2519-40d2-8de5-d3f0f270fb39")
-		)
-		(fp_line
-			(start 13.28 -2.95)
-			(end -3.12 -2.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "15d32ac2-c8b9-491b-a048-1ad9c4f27a60")
-		)
-		(fp_line
-			(start -2.87 2.33)
-			(end 13.03 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "f7cceb2e-2e32-4f67-a92c-85718eea9e6a")
-		)
-		(fp_line
-			(start 13.03 2.33)
-			(end 13.03 -2.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "82940a4a-9b50-4815-a6dc-e7187d87aa27")
-		)
-		(fp_line
-			(start -2.87 -2.7)
-			(end -2.87 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c9e9f70a-37e2-491b-94a4-74260e50b033")
-		)
-		(fp_line
-			(start 3.275 -2.7)
-			(end 3.275 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "26710e31-7447-487c-b283-1fee6e0685af")
-		)
-		(fp_line
-			(start 6.885 -2.7)
-			(end 6.885 2.33)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c082f4ed-5162-4e5a-8843-2d05369dd1e3")
-		)
-		(fp_line
-			(start 13.03 -2.7)
-			(end -2.87 -2.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "8718ee53-79e8-4eb9-b8fb-bcb7eb686d3e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 3.45 90)
-			(layer "B.Fab")
-			(uuid "b348134d-2775-4f2d-bddb-1d09d347a07d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "/ph")
-			(pinfunction "D")
-			(pintype "passive")
-			(uuid "d9ec0ee2-63fa-4d98-847c-4a9f184c25d5")
-		)
-		(pad "2" thru_hole oval
-			(at 5.08 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "/dcn")
-			(pinfunction "S")
-			(pintype "passive")
-			(uuid "5f7bc61a-6faa-4e36-9a99-c934f46ba92b")
-		)
-		(pad "3" thru_hole oval
-			(at 7.62 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "/HalfBridge_GateDriver/kl")
-			(pinfunction "DS")
-			(pintype "passive")
-			(uuid "131439c7-f1b8-49c5-b5cf-1a3a272b9129")
-		)
-		(pad "4" thru_hole oval
-			(at 10.16 0 270)
-			(size 1.905 4.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "/HalfBridge_Power/gl")
-			(pinfunction "G")
-			(pintype "input")
-			(uuid "af93da9e-6567-4c9a-981f-a2a993211dc8")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-4_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -42590,6 +42048,318 @@
 			)
 			(rotate
 				(xyz 0 0 90)
+			)
+		)
+	)
+	(footprint "Package_TO_SOT_THT:TO-247-4_Vertical"
+		(layer "B.Cu")
+		(uuid "e4ca3763-28d7-4063-92af-24b3fe9975f6")
+		(at 80.05 98.291 -90)
+		(descr "TO-247-4, Vertical, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
+		(tags "TO-247-4 Vertical RM 2.54mm")
+		(property "Reference" "Q3"
+			(at 4.909 -3.85 90)
+			(layer "B.SilkS")
+			(uuid "fa141af8-daf1-4dfc-b817-fd027aee0600")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C3M0040120K"
+			(at 5.08 -3.95 90)
+			(layer "B.Fab")
+			(uuid "62fe844c-f625-4d80-9b77-05b39e24cfe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-4_Vertical"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5557048c-6158-44da-8315-3763939c6695")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2023/08/Wolfspeed_C3M0040120K_data_sheet.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a50726ab-bb9b-491e-bc91-bd50ef26042e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1200V 40mohm Silicon Carbide Power MOSFET N-Channel Enhancement Mode - Wolfspeed"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "efb77030-a672-4027-af50-1ff5df31a07c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Package_TO_SOT_THT:TO-247-4*")
+		(path "/e430685f-ad0a-4a48-becd-63dd913bcc64/72b56a62-f4e6-4987-a6d0-ec26b223e010")
+		(sheetname "HalfBridge_Power")
+		(sheetfile "HalfBridge_Power.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 13.15 2.451)
+			(end -2.99 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "1eaa859e-220d-4b95-b949-9b026b7da379")
+		)
+		(fp_line
+			(start 6.885 2.4)
+			(end 6.885 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "86f81f1d-e70e-41f7-924a-3faa263c763d")
+		)
+		(fp_line
+			(start -2.99 -2.82)
+			(end -2.99 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6cb43a55-bf8e-4495-a379-59565e470b35")
+		)
+		(fp_line
+			(start 3.276 -2.82)
+			(end 3.276 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ad3998f4-fc11-43f7-89d6-698f6ff8f093")
+		)
+		(fp_line
+			(start 6.885 -2.82)
+			(end 6.885 -2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "17a7706a-64d1-4221-b730-8a9b68cf76b1")
+		)
+		(fp_line
+			(start 13.15 -2.82)
+			(end 13.15 2.451)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3deb9ab7-08b2-4e15-8b31-b2b79c445205")
+		)
+		(fp_line
+			(start 13.15 -2.82)
+			(end -2.99 -2.82)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ef72a225-d76d-497c-9dbf-73ea4e5e4563")
+		)
+		(fp_line
+			(start -3.12 2.59)
+			(end 13.28 2.59)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7d2f8123-7026-4fb8-826e-d1d9ba52e249")
+		)
+		(fp_line
+			(start 13.28 2.59)
+			(end 13.28 -2.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fdeeb1a0-053a-466d-a82f-85260f452d9b")
+		)
+		(fp_line
+			(start -3.12 -2.95)
+			(end -3.12 2.59)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7e1bd0be-e1ce-4c01-9114-c86f4d6e4ef1")
+		)
+		(fp_line
+			(start 13.28 -2.95)
+			(end -3.12 -2.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "96d5ae38-7b09-4bc0-b19d-e030da028630")
+		)
+		(fp_line
+			(start -2.87 2.33)
+			(end 13.03 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9b126bf9-1475-44fc-9f7b-a3e4f0cdf390")
+		)
+		(fp_line
+			(start 13.03 2.33)
+			(end 13.03 -2.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ac85be74-f86d-4ad5-852f-2afab7437105")
+		)
+		(fp_line
+			(start -2.87 -2.7)
+			(end -2.87 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8a2b00e3-fc1d-4512-8b21-e05ad6b59c1d")
+		)
+		(fp_line
+			(start 3.275 -2.7)
+			(end 3.275 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "28c78fc2-ab1f-49e1-ad79-a5112b7c26ca")
+		)
+		(fp_line
+			(start 6.885 -2.7)
+			(end 6.885 2.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "078b1124-bc12-421f-8137-3e7bcb1aa125")
+		)
+		(fp_line
+			(start 13.03 -2.7)
+			(end -2.87 -2.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "badcac57-0932-44be-95e7-bfe74e63b318")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.08 3.45 90)
+			(layer "B.Fab")
+			(uuid "4df7df6f-7903-474e-bf61-aacfdb94e367")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "/dcp")
+			(pinfunction "D")
+			(pintype "passive")
+			(uuid "13491444-2092-4f83-ae81-47b3cbbb6759")
+		)
+		(pad "2" thru_hole oval
+			(at 5.08 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "/ph")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "05ef9712-b179-49cc-ab6e-89191de0fcdd")
+		)
+		(pad "3" thru_hole oval
+			(at 7.62 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "/HalfBridge_GateDriver/kh")
+			(pinfunction "DS")
+			(pintype "passive")
+			(uuid "03ca42bd-7e5e-4c71-835c-9cef03723840")
+		)
+		(pad "4" thru_hole oval
+			(at 10.16 0 270)
+			(size 1.905 4.5)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "/HalfBridge_Power/gh")
+			(pinfunction "G")
+			(pintype "input")
+			(uuid "dcfbb025-2096-4d57-b608-152b61f13427")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-4_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)

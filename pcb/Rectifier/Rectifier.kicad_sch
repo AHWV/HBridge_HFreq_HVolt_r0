@@ -1860,7 +1860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1200 uF"
 			(at 149.86 95.6309 0)
 			(effects
 				(font
@@ -1888,6 +1888,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAL229956122E3"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -1930,7 +1939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1200 uF"
 			(at 149.86 105.7909 0)
 			(effects
 				(font
@@ -1958,6 +1967,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAL229956122E3"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -2076,7 +2094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1200 uF"
 			(at 129.54 105.7909 0)
 			(effects
 				(font
@@ -2104,6 +2122,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAL229956122E3"
 			(at 125.73 105.41 0)
 			(effects
 				(font
@@ -2146,7 +2173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1200 uF"
 			(at 129.54 95.6309 0)
 			(effects
 				(font
@@ -2174,6 +2201,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAL229956122E3"
 			(at 125.73 95.25 0)
 			(effects
 				(font

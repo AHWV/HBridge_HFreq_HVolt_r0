@@ -7,4 +7,5 @@
   (lib (name "My_Interface_UART")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/My_Interface_UART.kicad_sym")(options "")(descr ""))
   (lib (name "HalfBridge_SiC")(type "KiCad")(uri "${KIPRJMOD}/HalfBridge_SiC.kicad_sym")(options "")(descr ""))
   (lib (name "My_Standoff")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/My_Standoff.kicad_sym")(options "")(descr ""))
+  (lib (name "My_Transistor_FET")(type "KiCad")(uri "${KICAD_CUSTOM_DIR}/My_Transistor_FET.kicad_sym")(options "")(descr ""))
 )
