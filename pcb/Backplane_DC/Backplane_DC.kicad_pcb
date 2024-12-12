@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Backplane DC-link")
+		(date "2024-12-11")
+		(rev "1.0")
+		(company "Dr.-Ing Alan H. Wilson Veas")
+		(comment 1 "AHWV")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -127,6 +134,345 @@
 	(net 5 "/pha")
 	(net 6 "/5v")
 	(net 7 "/gnd")
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "36c4f6d1-fd8c-49ff-b38e-f8482ab49027")
+		(at 136 65)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H17"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "e103cbac-5d5a-420f-a02b-2b43a8aed8f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "0d3c0049-4b12-4239-9ec7-cdff3d948cfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82984e76-cd67-4738-b2c2-d70c3a906fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3684fbc-f9c0-4b62-a040-d73e6559785d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03a16c47-0113-4802-8460-733b5acc8c98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b57e515d-3e72-4823-b204-3b4a2d8c0258")
+		(sheetname "Root")
+		(sheetfile "Backplane_DC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4a76acca-1af5-405c-97fc-ca2b5f87f114")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "db6b90de-4e82-4ee7-b7de-bcc102e8af4f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "94e2ade5-65b9-4d32-b0dd-38d6c748758c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f7b17d52-0cd7-4677-bd0f-d36f98da3b30")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "5ce55fc8-a69c-4864-8778-256d236c5884")
+		(at 44 136)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H14"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "5d573ba9-4d34-47e9-b006-773ab75302df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "88233a8b-2c90-4f4a-b70d-64b17f9edc4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bd31463-1d50-43cb-af85-f87c8e195ee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66531663-bfbc-462a-bdf7-45edc74c3cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30264369-4b76-4e21-bce5-1daf8c78781d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a8e96175-2a08-49a0-a9a5-1cf00a143571")
+		(sheetname "Root")
+		(sheetfile "Backplane_DC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "84865849-77a8-4749-bbbf-5ecb589daa7d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c6d8dc97-cdb9-4d08-bb8f-74b34b9e571b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "35034e9c-766e-4f6b-96e6-80c978341e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b2b44f2e-c339-45a0-9ad6-f14bed933032")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "7b816740-14fc-469d-b8d2-4ac3ec8ff10c")
+		(at 44 44 180)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H15"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "21af14d9-23f9-4c64-b1bd-141e0c765a7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "8b756756-e47f-4cb6-b5ee-6799d90150df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53f150f1-109c-432e-b550-0085e3eeaa8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "675cba8c-af73-465a-a1d7-4d5988ec6db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80beaad5-ac4e-4923-9b65-d6dc041041ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d8d694f3-10da-4cda-97f7-b784d122f251")
+		(sheetname "Root")
+		(sheetfile "Backplane_DC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6108602d-5a45-438b-bd70-77d211ad9f6a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "059a2e63-3967-4db3-a39f-a54c6809daf9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "128cc622-26b6-4bfe-803c-4ae7ff1388a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "239a7288-31b4-4802-9d92-f4a68212c179")
+		)
+	)
 	(footprint "My_Converter_ACDC:IRM-05-5"
 		(layer "F.Cu")
 		(uuid "bc074083-1ece-4a5c-8f32-d1753a728807")
@@ -770,6 +1116,119 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "eae4a4ad-e9f9-48c3-ae01-58df00d917ed")
+		(at 136 126)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H16"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "624656a9-be42-445c-9c24-619432a53540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "d5d96e42-8678-4296-aa99-b630062ee30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e41f3bf-477d-404a-9adc-1310a5861d55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db440e83-4b5a-46f3-8121-21c794677b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c908b57-53c0-48c2-b10f-cbbbb0360725")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/4c0bb9d4-d292-4337-8c09-e3e9b2410247")
+		(sheetname "Root")
+		(sheetfile "Backplane_DC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f1fb1e6f-2db3-4416-8ac2-00897e2574f8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "237f4510-5511-4aab-857c-134ed0429a31")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2bcd9120-725a-46dc-ac5c-5165b10c9583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e38853a0-353a-426d-9c38-6cc0e2b0d7cd")
 		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
@@ -2382,6 +2841,65 @@
 		(layer "Edge.Cuts")
 		(uuid "4adfffac-91a0-425f-a2a1-b3707b43aaae")
 	)
+	(gr_text "Rev: ${REVISION} ${COMMENT1}"
+		(at 45.7 132.8 -0)
+		(layer "F.Cu" knockout)
+		(uuid "305726c3-8024-4949-af90-0de937f2f01d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${TITLE}\n./pcb/${PROJECTNAME}\n${COMPANY}\nIssued: ${ISSUE_DATE}\nRev: ${REVISION} ${COMMENT1}"
+		(at 45.7 132.8 -0)
+		(layer "F.SilkS")
+		(uuid "6122e216-e018-4612-b585-1e00dab5e1dc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0670db34-3377-47bc-9f99-0eacfee85241")
+		(pts
+			(xy 44 44) (xy 40 40)
+		)
+		(height -7.4)
+		(orientation 1)
+		(gr_text "4.0000 mm"
+			(at 35.45 42 90)
+			(layer "Dwgs.User")
+			(uuid "0670db34-3377-47bc-9f99-0eacfee85241")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -2487,6 +3005,40 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "3672bb67-0e45-47d5-98bf-441bc08791a8")
+		(pts
+			(xy 44 44) (xy 40 40)
+		)
+		(height -8.4)
+		(orientation 0)
+		(gr_text "4.0000 mm"
+			(at 42 34.45 0)
+			(layer "Dwgs.User")
+			(uuid "3672bb67-0e45-47d5-98bf-441bc08791a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "3b54bf62-ffe4-4469-b985-873532e667b3")
 		(pts
 			(xy 74.697999 55.239999) (xy 135.657999 55.239999)
@@ -2508,6 +3060,74 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "411e1eaa-0ea9-444e-a1ae-b748807f9ccb")
+		(pts
+			(xy 44 136) (xy 40 140)
+		)
+		(height -10.2)
+		(orientation 1)
+		(gr_text "4.0000 mm"
+			(at 32.65 138 90)
+			(layer "Dwgs.User")
+			(uuid "411e1eaa-0ea9-444e-a1ae-b748807f9ccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "554f3706-4272-4976-8e28-23c953d2ebe4")
+		(pts
+			(xy 136 65) (xy 140 40)
+		)
+		(height -29.5)
+		(orientation 0)
+		(gr_text "4.0000 mm"
+			(at 138 34.35 0)
+			(layer "Dwgs.User")
+			(uuid "554f3706-4272-4976-8e28-23c953d2ebe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
 			(units_format 1)
 			(precision 4)
 		)
@@ -2589,6 +3209,40 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "7490bae3-0c18-45fe-93f8-343825cf7900")
+		(pts
+			(xy 136 65) (xy 140 40)
+		)
+		(height 8.9)
+		(orientation 1)
+		(gr_text "25.0000 mm"
+			(at 143.75 52.5 90)
+			(layer "Dwgs.User")
+			(uuid "7490bae3-0c18-45fe-93f8-343825cf7900")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "7c4c2631-383a-4113-bd65-3a6c7095da3c")
 		(pts
 			(xy 140 140) (xy 130.799999 116.199999)
@@ -2644,6 +3298,74 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "975f2711-b8d3-47bd-aba0-d1b191ba8b53")
+		(pts
+			(xy 140 140) (xy 136 126)
+		)
+		(height 6.3)
+		(orientation 1)
+		(gr_text "14.0000 mm"
+			(at 145.15 133 90)
+			(layer "Dwgs.User")
+			(uuid "975f2711-b8d3-47bd-aba0-d1b191ba8b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9a66a226-8945-4581-874e-069670aa9ed9")
+		(pts
+			(xy 140 140) (xy 136 126)
+		)
+		(height 4.6)
+		(orientation 0)
+		(gr_text "4.0000 mm"
+			(at 138 143.45 0)
+			(layer "Dwgs.User")
+			(uuid "9a66a226-8945-4581-874e-069670aa9ed9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
 			(units_format 1)
 			(precision 4)
 		)
@@ -2814,6 +3536,40 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "cdd0bf21-e627-4b0f-b4ca-32723e3f9403")
+		(pts
+			(xy 40 140) (xy 44 136)
+		)
+		(height 4.4)
+		(orientation 0)
+		(gr_text "4.0000 mm"
+			(at 42 143.25 0)
+			(layer "Dwgs.User")
+			(uuid "cdd0bf21-e627-4b0f-b4ca-32723e3f9403")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
 			(units_format 1)
 			(precision 4)
 		)
@@ -3094,25 +3850,25 @@
 		)
 		(polygon
 			(pts
-				(xy 112.644 40.686) (xy 139.658 40.586) (xy 139.658 59.636) (xy 112.644 59.736)
+				(xy 121.944 40.686) (xy 139.658 40.586) (xy 139.658 59.636) (xy 121.944 59.736)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 139.442153 40.606482) (xy 139.488103 40.659116) (xy 139.4995 40.711045) (xy 139.4995 59.513044)
-				(xy 139.479815 59.580083) (xy 139.427011 59.625838) (xy 139.375959 59.637043) (xy 112.768459 59.735539)
-				(xy 112.701347 59.716103) (xy 112.655397 59.663469) (xy 112.644 59.61154) (xy 112.644 40.809541)
-				(xy 112.663685 40.742502) (xy 112.716489 40.696747) (xy 112.767537 40.685542) (xy 139.375045 40.587047)
+				(xy 139.44195 40.606903) (xy 139.488002 40.659448) (xy 139.4995 40.711595) (xy 139.4995 59.513592)
+				(xy 139.479815 59.580631) (xy 139.427011 59.626386) (xy 139.3762 59.63759) (xy 122.0687 59.735296)
+				(xy 122.00155 59.71599) (xy 121.955498 59.663445) (xy 121.944 59.611298) (xy 121.944 40.809301)
+				(xy 121.963685 40.742262) (xy 122.016489 40.696507) (xy 122.067295 40.685303) (xy 139.374805 40.587598)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 139.442153 40.606482) (xy 139.488103 40.659116) (xy 139.4995 40.711045) (xy 139.4995 59.513044)
-				(xy 139.479815 59.580083) (xy 139.427011 59.625838) (xy 139.375959 59.637043) (xy 112.768459 59.735539)
-				(xy 112.701347 59.716103) (xy 112.655397 59.663469) (xy 112.644 59.61154) (xy 112.644 40.809541)
-				(xy 112.663685 40.742502) (xy 112.716489 40.696747) (xy 112.767537 40.685542) (xy 139.375045 40.587047)
+				(xy 139.44195 40.606903) (xy 139.488002 40.659448) (xy 139.4995 40.711595) (xy 139.4995 59.513592)
+				(xy 139.479815 59.580631) (xy 139.427011 59.626386) (xy 139.3762 59.63759) (xy 122.0687 59.735296)
+				(xy 122.00155 59.71599) (xy 121.955498 59.663445) (xy 121.944 59.611298) (xy 121.944 40.809301)
+				(xy 121.963685 40.742262) (xy 122.016489 40.696507) (xy 122.067295 40.685303) (xy 139.374805 40.587598)
 			)
 		)
 	)

@@ -1431,6 +1431,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "GRM21BR61H106KE43L"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cc06ebc-a7bc-4446-826c-7aef3fded0bb")
 		)
@@ -1569,6 +1578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "GRM21BR61H106KE43L"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fdb9faf0-f87e-46c7-9fc8-d1b80552afce")
 		)
@@ -1639,6 +1657,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "GRM21BR61H106KE43L"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0dd64a7-3a0c-4002-bf33-eb3ec45588be")
 		)
@@ -1701,6 +1728,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRM21BR61H106KE43L"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -1980,6 +2016,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "UMK107BJ104KAHT"
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6505d60e-c741-40f3-a1fe-4ec36501d26c")
 		)
@@ -2042,6 +2087,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UMK107BJ104KAHT"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -2120,6 +2174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "GRM21BR61H106KE43L"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65bc5ee2-0147-435f-8695-2719ef433617")
 		)
@@ -2181,6 +2244,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRM21BR61H106KE43L"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -2251,6 +2323,15 @@
 			)
 		)
 		(property "Description" "Versatile Link Fiber Optic Receiver"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AFBR-2624Z"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -2333,6 +2414,15 @@
 			)
 		)
 		(property "Description" "Versatile Link Fiber Optic Receiver"
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AFBR-2624Z"
 			(at 58.42 147.32 0)
 			(effects
 				(font
@@ -2559,6 +2649,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "UMK107BJ104KAHT"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "036c5e73-37f8-459f-8b1b-ae0d9302df39")
 		)
@@ -2621,6 +2720,15 @@
 			)
 		)
 		(property "Description" "Versatile Link Fiber Optic Receiver"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AFBR-2624Z"
 			(at 58.42 73.66 0)
 			(effects
 				(font

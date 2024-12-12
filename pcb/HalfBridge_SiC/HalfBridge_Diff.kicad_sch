@@ -1996,6 +1996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "T1M-02-F-SH-L-K"
+			(at 52.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f576a982-93ba-47f6-86e1-27909edb49fa")
 		)
@@ -2061,6 +2070,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "5015"
 			(at 68.58 137.16 0)
 			(effects
 				(font
@@ -2338,6 +2356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "UMK107BJ104KAHT"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2e2469f-f52c-48c3-b2df-caf03295a934")
 		)
@@ -2400,6 +2427,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "5015"
 			(at 68.58 144.78 0)
 			(effects
 				(font
@@ -2475,6 +2511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "5015"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "708b21ed-8221-4121-892f-d1af1fd4b13d")
 		)
@@ -2533,6 +2578,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "M20-9750242"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -2681,6 +2735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "T1M-02-F-SH-L-K"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6bf3fdb-f511-4978-9765-a1035c466ab7")
 		)
@@ -2744,6 +2807,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UMK107BJ104KAHT"
 			(at 105.41 127 0)
 			(effects
 				(font
@@ -2821,6 +2893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "M20-9750242"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91fd6e0e-2dfb-4589-8726-1e26bf27f9f0")
 		)
@@ -2883,6 +2964,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "5015"
 			(at 68.58 109.22 0)
 			(effects
 				(font
@@ -3027,6 +3117,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "M20-9750242"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c55ff79c-ef5d-4a62-816c-03fc8014ec1c")
 		)
@@ -3095,6 +3194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "UMK107BJ104KAHT"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d0f3b2c-3f94-4d4d-8773-900882319f54")
 		)
@@ -3155,6 +3263,15 @@
 			)
 		)
 		(property "Description" "±15kV ESD-Protected 52Mbps, 3V to 5.5V RS-485/RS-422 True Fail-Safe Receivers, SOT23"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAX3284EAUT+T"
 			(at 97.79 105.41 0)
 			(effects
 				(font
@@ -3235,6 +3352,15 @@
 			)
 		)
 		(property "Description" "±15kV ESD-Protected 52Mbps, 3V to 5.5V RS-485/RS-422 True Fail-Safe Receivers, SOT23"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAX3284EAUT+T"
 			(at 97.79 67.31 0)
 			(effects
 				(font
@@ -3325,6 +3451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "5015"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c942b40-793f-44c0-a8bd-5107b306a497")
 		)
@@ -3382,6 +3517,15 @@
 			)
 		)
 		(property "Description" "±15kV ESD-Protected 52Mbps, 3V to 5.5V RS-485/RS-422 True Fail-Safe Receivers, SOT23"
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MAX3284EAUT+T"
 			(at 97.79 140.97 0)
 			(effects
 				(font
@@ -3542,6 +3686,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "T1M-02-F-SH-L-K"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8d11501-02c3-473f-a8a6-dd113b26eefe")
 		)
@@ -3607,6 +3760,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "5015"
 			(at 68.58 101.6 0)
 			(effects
 				(font

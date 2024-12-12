@@ -1755,6 +1755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "M20-9750242"
+			(at 36.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2ed0699-2f01-46dd-ba9f-2fc48e6d996e")
 		)

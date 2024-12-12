@@ -1877,6 +1877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "C3M0040120K"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "5b7c91fd-83fb-4e57-b39c-b604240367d4")
 		)
@@ -2270,6 +2279,15 @@
 			)
 		)
 		(property "Description" "1200V 40mohm Silicon Carbide Power MOSFET N-Channel Enhancement Mode - Wolfspeed"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C3M0040120K"
 			(at 227.33 59.69 0)
 			(effects
 				(font
